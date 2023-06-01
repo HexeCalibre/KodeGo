@@ -1,5 +1,4 @@
-# DAY 1 CLI
-06/01/2023
+# DAY 1 CLI 06/01/2023
 
 ## What is Command Line Interface?
 -is a program on your computer where you can create
@@ -25,3 +24,9 @@ files, run programs, and navigate through your folders and other files. It's cal
 ### How to check PowerShell's Code Execution Policy
 Get-ExecutionPolicy
 -Show current execution policy
+
+## Powershell commands
+cd.
+-change directory but go to current directory
+
+cd..
