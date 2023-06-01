@@ -12,7 +12,8 @@ files, run programs, and navigate through your folders and other files. It's cal
 4. You need it to use preprocessors, Task Runners, and Bundlers
 5. It's for Local Backend Development
 
-## How to set PowerShell's Code Execution Policy into Unrestricted
+## PowerShell Set Execution Policy
+### How to set PowerShell's Code Execution Policy into Unrestricted
 • Set-Execution?oljcy Unrestricted
 
 • -Set ExecutionPolicy to Unrestricted
