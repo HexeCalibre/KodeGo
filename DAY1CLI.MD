@@ -30,7 +30,7 @@ Get-ExecutionPolicy
 Command | Function
 ------- | -------
 cd.     | change directory but go to current directory
-cd..    | 
+cd..    | navigate to the parent directory (one level up) from the current directory
 dir or ls or Get-ChildItem | show directory
 dir -force or ls -force or Get-ChildItem -Force | show directory with hidden folders
 mkdir/md <folder name> | create new directory
