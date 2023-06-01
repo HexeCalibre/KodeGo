@@ -31,9 +31,10 @@ Get-ExecutionPolicy
 
 Command | Function
 ------- | -------
-cd.     | change directory but go to current directory
+cd \<folder name\> | open directory
 cd..    | navigate to the parent directory (one level up) from the current directory
 dir or ls or Get-ChildItem | show directory
-dir -force or ls -force or Get-ChildItem -Force | show directory with hidden folders
+dir -force or ls -force or Get-ChildItem -Force | show directory including hidden folders
 mkdir/md \<folder name\> | create new directory
+ren \<folder name\> | rename folder/file
 del \<folder name\> | delete directory
