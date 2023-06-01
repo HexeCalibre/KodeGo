@@ -34,4 +34,4 @@ cd..    | navigate to the parent directory (one level up) from the current direc
 dir or ls or Get-ChildItem | show directory
 dir -force or ls -force or Get-ChildItem -Force | show directory with hidden folders
 mkdir/md <folder name> | create new directory
-
+del <folder name> | delete directory
