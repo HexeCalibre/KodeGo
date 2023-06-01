@@ -26,17 +26,12 @@ Get-ExecutionPolicy
 -Show current execution policy
 
 ## Powershell commands
-cd.
--change directory but go to current directory
 
-cd..
--
+Command | Function
+------- | -------
+cd.     | change directory but go to current directory
+cd..    | 
+dir or ls or Get-ChildItem | show directory
+dir -force or ls -force or Get-ChildItem -Force | -show directory with hidden folders
+mkdir/md <folder name> | -create new directory
 
-dir or ls
--show directory
-
-dir -force or ls -force or Get-ChildItem -Force
--show directory with hidden folders
-
-mkdir/md <folder name>
--create new directory
