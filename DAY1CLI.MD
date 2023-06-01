@@ -14,7 +14,7 @@ files, run programs, and navigate through your folders and other files. It's cal
 
 ## PowerShell Set Execution Policy
 ### How to set PowerShell's Code Execution Policy into Unrestricted
-• Set-Execution?oljcy Unrestricted
+• Set-ExecutionPolicy Unrestricted
 
 • -Set ExecutionPolicy to Unrestricted
 
