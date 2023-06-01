@@ -23,9 +23,10 @@ or
 -Set ExecutionPqLicy to Restricted
 ```
 ### How to check PowerShell's Code Execution Policy
+```powershell
 Get-ExecutionPolicy
--Show current execution policy
-
+//Show current execution policy
+```
 ## Powershell commands
 
 Command | Function
