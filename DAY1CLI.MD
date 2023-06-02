@@ -31,6 +31,7 @@ Get-ExecutionPolicy
 
 Command | Function
 ------- | -------
+clear/cls | clear the contents of the console window
 cd \<folder name\> | open directory
 cd..    | navigate to the parent directory (one level up) from the current directory
 dir or ls or Get-ChildItem | show directory
