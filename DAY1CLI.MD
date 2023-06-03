@@ -1,5 +1,5 @@
 # 2 DAY CLI 06/01/2023
-## Pointers
+## Table of Contents
 [What is Command Line Interface?](https://github.com/HexeCalibre/KodeGo/blob/master/DAY1CLI.MD#what-is-command-line-interface)
 
 [Why Learn CLI?](https://github.com/HexeCalibre/KodeGo/blob/master/DAY1CLI.MD#why-learn-cli)
