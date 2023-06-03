@@ -34,5 +34,5 @@ Nesting     |
 ## Tackled Tags
 Tags        |  Function
 ----------- | ------------
-\<\!DOCTYPE html\> | 
-Nesting     |
+\<\!DOCTYPE html\> | HTML 5 Version
+\<html lang=\"en\"\>     |
