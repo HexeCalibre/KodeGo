@@ -75,6 +75,36 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 ```
 
 ### Body Content
+| Tags          | Function                                                     |
+| ------------- | ------------------------------------------------------------ |
+| `<body>`      | Represents the content of an HTML document.                   |
+| `<div>`       | Defines a division or a section in an HTML document.         |
+| `<span>`      | Defines an inline container for a specific text or a part of a document. |
+| `<h1>`        | Defines a top-level heading in an HTML document.             |
+| `<h2>`        | Defines a second-level heading in an HTML document.          |
+| `<h3>`        | Defines a third-level heading in an HTML document.           |
+| `<h4>`        | Defines a fourth-level heading in an HTML document.          |
+| `<h5>`        | Defines a fifth-level heading in an HTML document.           |
+| `<h6>`        | Defines a sixth-level heading in an HTML document.           |
+| `<p>`         | Defines a paragraph in an HTML document.                     |
+| `<a>`         | Creates a hyperlink to another web page or resource.         |
+| `<img>`       | Embeds an image into an HTML document.                       |
+| `<ul>`        | Defines an unordered list in an HTML document.               |
+| `<ol>`        | Defines an ordered list in an HTML document.                 |
+| `<li>`        | Defines a list item in an HTML document.                     |
+| `<table>`     | Represents tabular data in an HTML document.                 |
+| `<tr>`        | Defines a row in an HTML table.                              |
+| `<td>`        | Defines a cell in an HTML table.                             |
+| `<form>`      | Creates an HTML form for user input.                         |
+| `<input>`     | Defines an input control within an HTML form.                |
+| `<button>`    | Creates a clickable button in an HTML document.              |
+| `<label>`     | Defines a label for an HTML form element.                    |
+| `<select>`    | Creates a dropdown list in an HTML form.                     |
+| `<textarea>`  | Defines a multiline text input control in an HTML form.      |
+| `<strong>`    | Represents strong importance or emphasis on text.            |
+| `<em>`        | Indicates emphasis on text, typically displayed in italics.  |
+| `<sub>`       | Defines subscript text.                                      |
+| `<sup>`       | Defines superscript text.                                    |
+| `<strike>`    | Represents strikethrough text.                               |
 
-#### Typography
 
