@@ -28,7 +28,6 @@ Get-ExecutionPolicy
 //Show current execution policy
 ```
 ## Powershell commands
-Here's the updated table with the copy and move commands included:
 | Command                            | Function                                               |
 | ---------------------------------- | ------------------------------------------------------ |
 | `clear` or `cls`                    | Clear the contents of the console window.              |
@@ -47,6 +46,9 @@ Here's the updated table with the copy and move commands included:
 | `copy <source> <destination>`        | Copy a file or directory to a specified destination.    |
 | `move <source> <destination>`        | Move a file or directory to a specified destination.    |
 | `kill <process ID>`                  | Terminate a running process with the specified process ID. |
+| `Get-Help <command>`                 | Get help documentation for a specific command.          |
+| `Get-Alias`                         | Get a list of all defined aliases.                      |
+
 
 Please note that these commands are commonly used in command-line interfaces like Windows Command Prompt or PowerShell.
 
