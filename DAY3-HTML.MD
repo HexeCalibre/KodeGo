@@ -71,6 +71,7 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
     <link rel='stylesheet' href='css/style.css'>
     <title>HTML introduction</title>
 </head>
+</html>
 ```
 
 ### Body Content
