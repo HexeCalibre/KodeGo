@@ -25,10 +25,14 @@ CSS Peek     | pranaygp.vscode-css-peek
 [Roadmap.sh](https://roadmap.sh/frontend)
 
 ### Definition of Terms
-Term        |  Definition
------------ | ------------
-Encapsulate | 
-Nesting     |
+| Term        | Definition                                                  |
+| ----------- | ----------------------------------------------------------- |
+| Encapsulate | In programming, encapsulation refers to bundling data and methods into a single unit (object) and providing a well-defined interface for interacting with it. It helps hide internal details and protect data integrity. |
+| Nesting     | In programming, nesting refers to placing one code construct (such as a loop or conditional statement) inside another. It allows for hierarchical structuring of code and is commonly used to create complex logic and relationships between different components. |
+| Inheritance | In object-oriented programming, inheritance is the mechanism by which a class inherits properties and behaviors from another class. It promotes code reuse and enables the creation of hierarchical relationships between classes, with child classes inheriting features from parent classes. |
+| Polymorphism | Polymorphism is the ability of an object or method to take on different forms or behaviors based on the context in which it is used. It allows for flexibility and extensibility in object-oriented programming, enabling objects to be treated as instances of their own class or any of their parent classes. |
+| Abstraction | Abstraction involves simplifying complex systems by focusing on the essential aspects while ignoring irrelevant details. In programming, abstraction allows for the creation of abstract classes or interfaces that define common behavior without specifying the implementation, promoting code modularity and flexibility. |
+
 
 
 ## Tags
