@@ -24,7 +24,10 @@ CSS Peek     | pranaygp.vscode-css-peek
 
 [Roadmap.sh](https://roadmap.sh/frontend)
 
-### Oject-Oriented Programming
+### Object-Oriented Programming (OOP)
+#### What is OOP?
+OOP (Object-Oriented Programming) is a programming approach that emphasizes organizing code around objects. Objects are instances of classes and represent real-world entities or concepts. 
+
 | Term        | Definition                                                  |
 | ----------- | ----------------------------------------------------------- |
 | Encapsulate | In programming, encapsulation refers to bundling data and methods into a single unit (object) and providing a well-defined interface for interacting with it. It helps hide internal details and protect data integrity. |
