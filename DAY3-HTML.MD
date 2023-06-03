@@ -29,3 +29,10 @@ Term        |  Definition
 ----------- | ------------
 Encapsulate | 
 Nesting     |
+
+
+## Tackled Tags
+Tags        |  Function
+----------- | ------------
+\<\!DOCTYPE html\> | 
+Nesting     |
