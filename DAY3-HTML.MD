@@ -24,7 +24,7 @@ CSS Peek     | pranaygp.vscode-css-peek
 
 [Roadmap.sh](https://roadmap.sh/frontend)
 
-### Definition of Terms
+### Oject-Oriented Programming
 | Term        | Definition                                                  |
 | ----------- | ----------------------------------------------------------- |
 | Encapsulate | In programming, encapsulation refers to bundling data and methods into a single unit (object) and providing a well-defined interface for interacting with it. It helps hide internal details and protect data integrity. |
