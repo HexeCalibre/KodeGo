@@ -6,6 +6,7 @@
 ### VSCODE Extensions to start with
 Extension name | Extension ID
 -------------- | --------------
+Live Preview    | ms-vscode.live-server
 LiveServer     | ritwickdey.LiveServer
 Lorem Ipsum    | Tyriar.lorem-ipsum
 Prettier - Code Formatter     | esbenp.prettier-vscode
