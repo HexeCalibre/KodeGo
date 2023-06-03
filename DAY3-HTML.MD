@@ -35,4 +35,16 @@ Nesting     |
 Tags        |  Function
 ----------- | ------------
 \<\!DOCTYPE html\> | HTML 5 Version
-\<html lang=\"en\"\>     |
+\<html lang=\"en\"\> </html> |
+<head> </head> |
+<meta> |
+<meta charset='UTF-8'> |
+<meta http-equiv='X-UA-Compatible' content='IE=edge'> |
+<meta name='viewport' content='width=device-width, initial-scale=1.0'> |
+<meta name='author' content='Ritz Carl Feliciano'> |
+<meta name='description' content='Another HTML'> |
+<meta name='keywords' content='HTML, CSS, JS, semantic, beginners'> |
+<script src="https://kit.fontawesome.com/7902a8a385.js" crossorigin="anonymous"></script> |
+<link rel='stylesheet' href='css/style.css'> |
+<title>HTML introduction</title> |
+
