@@ -2,6 +2,12 @@
 ## Pointers
 [What is Command Line Interface?](https://github.com/HexeCalibre/KodeGo/blob/master/DAY1CLI.MD#what-is-command-line-interface)
 
+[Why Learn CLI?](https://github.com/HexeCalibre/KodeGo/blob/master/DAY1CLI.MD#why-learn-cli)
+
+[PowerShell Set Execution Policy](https://github.com/HexeCalibre/KodeGo/blob/master/DAY1CLI.MD#powershell-set-execution-policy)
+
+[Powershell Commands](https://github.com/HexeCalibre/KodeGo/blob/master/DAY1CLI.MD#powershell-commands)
+
 ## What is Command Line Interface?
 >is a program on your computer where you can create
 >files, run programs, and navigate through your folders and other files. It's called Terminal if you're using a Mac, and it's called >Command Prompt for Windows.
@@ -29,7 +35,7 @@ or
 Get-ExecutionPolicy
 //Show current execution policy
 ```
-## Powershell commands
+## Powershell Commands
 | Command                            | Function                                               |
 | ---------------------------------- | ------------------------------------------------------ |
 | `clear` or `cls`                    | Clear the contents of the console window.              |
