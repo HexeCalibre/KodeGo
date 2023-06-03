@@ -23,3 +23,9 @@ CSS Peek     | pranaygp.vscode-css-peek
 [W3Schools](https://www.w3schools.com/html/default.asp)
 
 [Roadmap.sh](https://roadmap.sh/frontend)
+
+### Definition of Terms
+Term        |  Definition
+----------- | ------------
+Encapsulate | 
+Nesting     |
