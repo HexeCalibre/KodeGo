@@ -56,6 +56,22 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 | `<link rel="stylesheet" href="css/style.css">`               | Links an external CSS file to the HTML document.           |
 | `<title>HTML introduction</title>`                            | Defines the title of the HTML document displayed in the browser. |
 
+#### Example
+```html
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='author' content='Ritz Carl Feliciano'>
+    <meta name='description' content='Another HTML'>
+    <meta name='keywords' content='HTML, CSS, JS, semantic, beginners'>
+    <script src="https://kit.fontawesome.com/7902a8a385.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='css/style.css'>
+    <title>HTML introduction</title>
+</head>
+```
 
 ### Body Content
 
