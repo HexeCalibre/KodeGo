@@ -31,7 +31,8 @@ Encapsulate |
 Nesting     |
 
 
-## Tackled Tags
+## Tags
+### Head Content
 Tags        |  Function
 ----------- | ------------
 \<\!DOCTYPE html\> | HTML 5 Version
@@ -47,4 +48,8 @@ Tags        |  Function
 <script src="https://kit.fontawesome.com/7902a8a385.js" crossorigin="anonymous"></script> |
 <link rel='stylesheet' href='css/style.css'> |
 <title>HTML introduction</title> |
+
+### Body Content
+
+#### Typography
 
