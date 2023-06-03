@@ -33,21 +33,22 @@ Nesting     |
 
 ## Tags
 ### Head Content
-Tags        |  Function
------------ | ------------
-\<\!DOCTYPE html\> | HTML 5 Version
-\<html lang=\"en\"\> </html> |
-<head> </head> |
-<meta> |
-<meta charset='UTF-8'> |
-<meta http-equiv='X-UA-Compatible' content='IE=edge'> |
-<meta name='viewport' content='width=device-width, initial-scale=1.0'> |
-<meta name='author' content='Ritz Carl Feliciano'> |
-<meta name='description' content='Another HTML'> |
-<meta name='keywords' content='HTML, CSS, JS, semantic, beginners'> |
-<script src="https://kit.fontawesome.com/7902a8a385.js" crossorigin="anonymous"></script> |
-<link rel='stylesheet' href='css/style.css'> |
-<title>HTML introduction</title> |
+| Tags                                                         | Function                                                   |
+| ------------------------------------------------------------ | ---------------------------------------------------------- |
+| `<!DOCTYPE html>`                                             | Specifies the HTML version as HTML5.                       |
+| `<html lang="en"> </html>`                                    | Defines the root element of an HTML document.              |
+| `<head> </head>`                                              | Represents the container for the document's metadata.      |
+| `<meta>`                                                      | Represents various types of metadata in an HTML document.  |
+| `<meta charset="UTF-8">`                                       | Specifies the character encoding for the HTML document.    |
+| `<meta http-equiv="X-UA-Compatible" content="IE=edge">`        | Sets the browser compatibility mode for Internet Explorer. |
+| `<meta name="viewport" content="width=device-width, initial-scale=1.0">` | Configures the viewport settings for responsive web design. |
+| `<meta name="author" content="Ritz Carl Feliciano">`           | Specifies the author of the HTML document.                |
+| `<meta name="description" content="Another HTML">`            | Provides a brief description of the HTML document.         |
+| `<meta name="keywords" content="HTML, CSS, JS, semantic, beginners">` | Defines keywords related to the HTML document.             |
+| `<script src="https://kit.fontawesome.com/7902a8a385.js" crossorigin="anonymous"></script>` | Imports an external JavaScript file from a URL.           |
+| `<link rel="stylesheet" href="css/style.css">`               | Links an external CSS file to the HTML document.           |
+| `<title>HTML introduction</title>`                            | Defines the title of the HTML document displayed in the browser. |
+
 
 ### Body Content
 
