@@ -13,19 +13,3 @@ Auto Rename Tag    | formulahendry.auto-rename-tag
 CSS Flexbox Cheatsheet     | dzhavat.css-flexbox-cheatsheet
 CSS Grid Snippets    | ohansemmanuel.css-grid-snippets
 CSS Peek     | pranaygp.vscode-css-peek
-:
-
-:
-
-:
-
-:
-
-:
-
-:
-
-:
-
-:
-
