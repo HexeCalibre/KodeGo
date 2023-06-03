@@ -28,15 +28,19 @@ Get-ExecutionPolicy
 //Show current execution policy
 ```
 ## Powershell commands
+| Command                            | Function                                               |
+| ---------------------------------- | ------------------------------------------------------ |
+| `clear` or `cls`                    | Clear the contents of the console window.              |
+| `dir` or `ls` or `Get-ChildItem`     | Show the contents of the current directory.            |
+| `dir -force` or `ls -force` or `Get-ChildItem -Force` | Show the contents of the current directory, including hidden folders. |
+| `mkdir` or `md <folder name>`        | Create a new directory.                                |
+| `cd <folder name>`                  | Open the specified directory.                          |
+| `ni`                               | Create a new item.                                     |
+| `ii`                               | Open a file or URL using the default program.           |
+| `gc`                               | Get the content of a file.                             |
+| `sc`                               | Set content in a file.                                 |
+| `cd..`                              | Navigate to the parent directory (one level up).        |
+| `cd ~`                             | Navigate to the user's home directory.                  |
+| `ren <folder name>`                  | Rename a folder or file.                               |
+| `del <folder name>`                  | Delete a directory or file.                            |
 
-Command | Function
-------- | -------
-dir or ls or Get-ChildItem | show directory
-dir -force or ls -force or Get-ChildItem -Force | show directory including hidden folders
-clear/cls | clear the contents of the console window
-mkdir/md \<folder name\> | create new directory
-cd \<folder name\> | open directory
-ni | create a new item
-cd..    | navigate to the parent directory (one level up) from the current directory
-ren \<folder name\> | rename folder/file
-del \<folder name\> | delete directory
