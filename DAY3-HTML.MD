@@ -1,6 +1,7 @@
 # DAY 3 HTML 06/03/2023
 ## PREREQUISITE
 [Visual Studio Code Download](https://code.visualstudio.com/download)
+
 [GitHub Signup](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
 ### VSCODE Extensions
 Extension name | Extension ID
