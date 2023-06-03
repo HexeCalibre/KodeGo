@@ -106,5 +106,5 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 | `<sub>`       | Defines subscript text.                                      |
 | `<sup>`       | Defines superscript text.                                    |
 | `<strike>`    | Represents strikethrough text.                               |
-
+| `<bookmark>`  | Represents a bookmark or anchor point within an HTML document. |
 
