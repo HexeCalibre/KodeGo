@@ -1,10 +1,15 @@
 # 2 DAY HTML 06/03/2023
 ## Contents
 [Prerequisite](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#prerequisite)
+
 [Learn to code](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#where-to-start)
+
 [What is OOP?](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#object-oriented-programming-oop)
+
 [HTML Tags](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#tags)
+
 [HTML Form Attributes and Usage](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#html-form-attributes-and-usage)
+
 ## Prerequisite
 [Visual Studio Code Download](https://code.visualstudio.com/download)
 
