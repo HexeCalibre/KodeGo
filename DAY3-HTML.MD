@@ -1,4 +1,4 @@
-# DAY 3 HTML 06/03/2023
+# 2 DAY HTML 06/03/2023
 ## PREREQUISITE
 [Visual Studio Code Download](https://code.visualstudio.com/download)
 
@@ -75,54 +75,46 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 ```
 
 ### Body Elements
-| Tags          | Function                                                     |
-| ------------- | ------------------------------------------------------------ |
-| `<body>`      | Represents the content of an HTML document.                   |
-| `<div>`       | Defines a division or a section in an HTML document.         |
-| `<span>`      | Defines an inline container for a specific text or a part of a document. |
-| `<h1>`        | Defines a top-level heading in an HTML document.             |
-| `<h2>`        | Defines a second-level heading in an HTML document.          |
-| `<h3>`        | Defines a third-level heading in an HTML document.           |
-| `<h4>`        | Defines a fourth-level heading in an HTML document.          |
-| `<h5>`        | Defines a fifth-level heading in an HTML document.           |
-| `<h6>`        | Defines a sixth-level heading in an HTML document.           |
-| `<p>`         | Defines a paragraph in an HTML document.                     |
-| `<a>`         | [Creates a hyperlink](URL) to another web page or resource.  |
-| `<img>`       | Embeds an image into an HTML document.                       |
-| `<ul>`        | Defines an unordered list in an HTML document.               |
-| `<ol>`        | Defines an ordered list in an HTML document.                 |
-| `<li>`        | Defines a list item in an HTML document.                     |
-| `<table>`     | Represents tabular data in an HTML document.                 |
-| `<tr>`        | Defines a row in an HTML table.                              |
-| `<td>`        | Defines a cell in an HTML table.                             |
-| `<form>`      | Creates an HTML form for user input.                         |
-| `<input>`     | Defines an input control within an HTML form.                |
-| `<button>`    | Creates a clickable button in an HTML document.              |
-| `<label>`     | Defines a label for an HTML form element.                    |
-| `<select>`    | Creates a dropdown list in an HTML form.                     |
-| `<textarea>`  | Defines a multiline text input control in an HTML form.      |
-| `<strong>`    | Represents strong importance or emphasis on text.            |
-| `<em>`        | Indicates emphasis on text, typically displayed in italics.  |
-| `<sub>`       | Defines subscript text.                                      |
-| `<sup>`       | Defines superscript text.                                    |
-| `<strike>`    | Represents strikethrough text.                               |
-| `<bookmark>`  | Represents a bookmark or anchor point within an HTML document. |
-
-<form>
-<fieldset>
-<legend>
-<label>
+| Tags       | Function                                                     |
+| ---------- | ------------------------------------------------------------ |
+| `<body>`   | Represents the content of an HTML document.                   |
+| `<div>`    | Defines a division or a section in an HTML document.         |
+| `<span>`   | Defines an inline container for a specific text or a part of a document. |
+| `<h1>`     | Defines a top-level heading in an HTML document.             |
+| `<h2>`     | Defines a second-level heading in an HTML document.          |
+| `<h3>`     | Defines a third-level heading in an HTML document.           |
+| `<h4>`     | Defines a fourth-level heading in an HTML document.          |
+| `<h5>`     | Defines a fifth-level heading in an HTML document.           |
+| `<h6>`     | Defines a sixth-level heading in an HTML document.           |
+| `<p>`      | Defines a paragraph in an HTML document.                     |
+| `<a>`      | [Creates a hyperlink](URL) to another web page or resource.  |
+| `<img>`    | Embeds an image into an HTML document.                       |
+| `<ul>`     | Defines an unordered list in an HTML document.               |
+| `<ol>`     | Defines an ordered list in an HTML document.                 |
+| `<li>`     | Defines a list item in an HTML document.                     |
+| `<table>`  | Represents tabular data in an HTML document.                 |
+| `<tr>`     | Defines a row in an HTML table.                              |
+| `<td>`     | Defines a cell in an HTML table.                             |
+| `<form>`   | Creates an HTML form for user input.                         |
+| `<input>`  | Defines an input control within an HTML form.                |
+| `<button>` | Creates a clickable button in an HTML document.              |
+| `<label>`  | Defines a label for an HTML form element.                    |
+| `<select>` | Creates a dropdown list in an HTML form.                     |
+| `<textarea>` | Defines a multiline text input control in an HTML form.      |
+| `<strong>` | Represents strong importance or emphasis on text.            |
+| `<em>`     | Indicates emphasis on text, typically displayed in italics.  |
+| `<sub>`    | Defines subscript text.                                      |
+| `<sup>`    | Defines superscript text.                                    |
+| `<strike>` | Represents strikethrough text.                               |
+| `<bookmark>` | Represents a bookmark or anchor point within an HTML document. |
     
-    
-    
+ 
 ```html
 <body>
     <form action="#" method="post" enctype="application/x-www-form-urlencoded" >
         <fieldset>
             <legend>HTML Form</legend>
-
             <!-- for,type,id, required and name-->
-
             <label for="firstname" >First Name<label>
             <input type="text" id="firstname" name="fname" required>
             <br><br>
@@ -144,15 +136,19 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
             <input type="password" id="password" name="pword" required>
             <br><br>
             <input type="submit">
-            
-
-        
         </fieldset>
      <form>
-
-    
 </body>
 ```
+#### HTML Form Attributes and Usage
+| Attribute  | Usage                                                        |
+| ---------- | ------------------------------------------------------------ |
+| `for`      | Associates a label with a form element. It specifies which form element the label belongs to. |
+| `type`     | Defines the type of input control to be displayed. It specifies the kind of data expected by the form element. |
+| `id`       | Provides a unique identifier for the form element. It is used to associate the element with a label or manipulate it through JavaScript or CSS. |
+| `required` | Specifies that the form element must be filled out before submitting the form. It ensures the input is mandatory. |
+| `name`     | Specifies the name of the form element. It is used to identify the form data on the server-side when the form is submitted. |
+
   
 
 
