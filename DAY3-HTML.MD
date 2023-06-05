@@ -74,7 +74,7 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 </html>
 ```
 
-### Body Content
+### Body Elements
 | Tags          | Function                                                     |
 | ------------- | ------------------------------------------------------------ |
 | `<body>`      | Represents the content of an HTML document.                   |
@@ -87,7 +87,7 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 | `<h5>`        | Defines a fifth-level heading in an HTML document.           |
 | `<h6>`        | Defines a sixth-level heading in an HTML document.           |
 | `<p>`         | Defines a paragraph in an HTML document.                     |
-| `<a>`         | Creates a hyperlink to another web page or resource.         |
+| `<a>`         | [Creates a hyperlink](URL) to another web page or resource.  |
 | `<img>`       | Embeds an image into an HTML document.                       |
 | `<ul>`        | Defines an unordered list in an HTML document.               |
 | `<ol>`        | Defines an ordered list in an HTML document.                 |
@@ -107,4 +107,52 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 | `<sup>`       | Defines superscript text.                                    |
 | `<strike>`    | Represents strikethrough text.                               |
 | `<bookmark>`  | Represents a bookmark or anchor point within an HTML document. |
+
+<form>
+<fieldset>
+<legend>
+<label>
+    
+    
+    
+```html
+<body>
+    <form action="#" method="post" enctype="application/x-www-form-urlencoded" >
+        <fieldset>
+            <legend>HTML Form</legend>
+
+            <!-- for,type,id, required and name-->
+
+            <label for="firstname" >First Name<label>
+            <input type="text" id="firstname" name="fname" required>
+            <br><br>
+            <label for="lastname">Last Name<label>
+            <input type="text" id="lastname" name="lname" required>
+            <br><br>
+            <label for="bday">Birthday<label>
+            <input type="date" id="bday" name="dob" required>
+            <br><br>
+            <input type="radio" id="male" name="gender" value="M" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="F" required>
+            <label for="female">Female</label>
+            <br><br>
+            <label for="email">Email<label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="password">Password<label>
+            <input type="password" id="password" name="pword" required>
+            <br><br>
+            <input type="submit">
+            
+
+        
+        </fieldset>
+     <form>
+
+    
+</body>
+```
+  
+
 
