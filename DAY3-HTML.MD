@@ -168,8 +168,11 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 | `pattern`   | Specifies a regular expression pattern that the form element's value must match for successful validation. |
 | `placeholder` | Provides a short hint or example text that is displayed in the form element before the user enters a value. |
 | `value`     | Sets the initial value for the form element. It can be used to pre-fill or preset the input with a default value. |
+| `maxlength` | Specifies the maximum number of characters that can be entered into an input field. |
+| `min`       | Specifies the minimum value allowed for a numeric input field. |
+| `max`       | Specifies the maximum value allowed for a numeric input field. |
 
-
+#### Example
 ```html
 <body>
     <form action="#" method="post" enctype="application/x-www-form-urlencoded" >
