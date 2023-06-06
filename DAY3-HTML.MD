@@ -8,6 +8,8 @@
 >
 > [HTML Tags](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#tags)
 >
+> [Case Style](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#case-style)
+>
 > [HTML Form Attributes and Usage](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#html-form-attributes-and-usage)
 
 ## Prerequisite
@@ -49,7 +51,7 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 
 
 
-## Tags
+## HTML Tags
 ### Head Content
 | Tags                                                         | Function                                                   |
 | ------------------------------------------------------------ | ---------------------------------------------------------- |
