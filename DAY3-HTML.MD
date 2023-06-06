@@ -1,14 +1,14 @@
 # 2 DAY HTML 06/03/2023
 ## Contents
-[Prerequisite](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#prerequisite)
+> [Prerequisite](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#prerequisite)
 
-[Learn to code](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#where-to-start)
+> [Learn to code](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#where-to-start)
 
-[What is OOP?](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#object-oriented-programming-oop)
+> [What is OOP?](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#object-oriented-programming-oop)
 
-[HTML Tags](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#tags)
+> [HTML Tags](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#tags)
 
-[HTML Form Attributes and Usage](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#html-form-attributes-and-usage)
+> [HTML Form Attributes and Usage](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#html-form-attributes-and-usage)
 
 ## Prerequisite
 [Visual Studio Code Download](https://code.visualstudio.com/download)
@@ -134,21 +134,116 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
             <br><br>
             <label for="bday">Birthday<label>
             <input type="date" id="bday" name="dob" required>
-            <br><br>
+            <br><br>    
             <input type="radio" id="male" name="gender" value="M" required>
             <label for="male">Male</label>
             <input type="radio" id="female" name="gender" value="F" required>
             <label for="female">Female</label>
-            <br><br>
+            <br><br>            
             <label for="email">Email<label>
             <input type="email" id="email" name="email" required>
             <br><br>
-            <label for="password">Password<label>
+            <label for="password">Password<label>                   
             <input type="password" id="password" name="pword" required>
             <br><br>
             <input type="submit">
         </fieldset>
      <form>
+    <form action="#" method="post" enctype="application/x-www-form-urlencoded" >
+        <fieldset>
+            <legend>HTML Form</legend>
+
+            <!-- 
+                for
+                type
+                id
+                name
+                required
+                multiple
+                pattern
+                placeholder
+                value
+                camelCase - JavaScript
+                PascalCase - 
+                kebab-case - CSS
+                snake_Case - 
+            -->
+
+            <label for="firstname" >First Name<label>
+            <input type="text" id="firstname" name="fname" >
+            <br><br>
+            <label for="lastname">Last Name<label>
+            <input type="text" id="lastname" name="lname" >
+            <br><br>
+            <label for="bday">Birthday<label>
+            <input type="date" id="bday" name="dob" >
+            <br><br>
+            <label for="month">Birthday Month</label>
+            <input type="month" id="birthdayMonth" name="birthdayMonth">
+            <br><br>
+            <label for="birthdayWeek">Birthday Week</label>
+            <input type="week" id="birthdayWeek" name="birthdayWeek">
+            <br><br>
+            <label for="time">Birthday Time</label>
+            <input type="time" id="time" name="time" >
+            <br><br>
+            <label for="birthdayTime">Birthday (date and time)<label>
+            <input type="datetime-local" id="birthdayTime" name="dob" >
+            <br><br>
+            <input type="radio" id="male" name="gender" value="M" >
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="F" >
+            <label for="female">Female</label>
+            <br><br>
+            <label>Languages</label>
+            <br><br>
+            <input type="checkbox" id="tagalogLanguage" name="tagalogLanguage" value="tag" >
+            <label>Tagalog</label>
+            <input type="checkbox" id="englishLanguage" name="englishLanguage" value="eng" >
+            <label>English</label>
+            <br><br>
+            <label for="email">Email<label>
+            <input type="email" id="email" name="email" >
+            <br><br>
+            <label>Education Attainment</label>
+            <select name="educatoin" id="education" multiple>
+                <option value="CD">College Degree</option>
+                <option value="AD">Associate Degree</option>
+                <option value="DD">Doctorate Degree</option>
+            </select>
+            <br><br>
+            <label for="password">Password<label>
+            <input type="password" id="password" name="pword" >
+            <br><br>
+            <label for="">Upload Picture</label>
+            <input type="file" accept=".jpeg,.jpg,.jpeg,.png,.svg,.ico" >
+            <br><br>
+            <label for="">Favorite Color</label>
+            <input type="color" id="favoriteColor" name="favoriteColor" >
+            <br><br>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="150">
+            <br><br>
+            <label for="">Salary Range</label>
+            <input type="range" id="salaryRange" name="salaryRange" min="0" max="1">
+            <br><br>
+            <label for="tel">Mobile/Phone Number</label>
+            <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{7}" maxlength="11" placeholder="0919-2124611">
+            <br><br>
+            <label for="search">Search</label>
+            <input type="search" id="search" name="search">
+            <br><br>
+            <label for="message">Message</label>
+            <br>
+            <textarea name="message" id="message" cols="20" rows="10" placeholder="Enter your message here."></textarea>
+            <br><br>
+            <label for="url">Webpage</label>
+            <input type="url" id="url" name="url" placeholder="www.example.com">
+            <br><br>
+            <input type="hidden" id="id" name="id" value="1">
+            <br><br>
+            <input type="submit">
+        </fieldset>
 </body>
 ```
 #### HTML Form Attributes and Usage
