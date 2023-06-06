@@ -176,32 +176,6 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
         <fieldset>
             <legend>HTML Form</legend>
             <label for="firstname" >First Name<label>
-            <input type="text" id="firstname" name="fname" required>
-            <br><br>
-            <label for="lastname">Last Name<label>
-            <input type="text" id="lastname" name="lname" required>
-            <br><br>
-            <label for="bday">Birthday<label>
-            <input type="date" id="bday" name="dob" required>
-            <br><br>    
-            <input type="radio" id="male" name="gender" value="M" required>
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="F" required>
-            <label for="female">Female</label>
-            <br><br>            
-            <label for="email">Email<label>
-            <input type="email" id="email" name="email" required>
-            <br><br>
-            <label for="password">Password<label>                   
-            <input type="password" id="password" name="pword" required>
-            <br><br>
-            <input type="submit">
-        </fieldset>
-     <form>
-    <form action="#" method="post" enctype="application/x-www-form-urlencoded" >
-        <fieldset>
-            <legend>HTML Form</legend>
-            <label for="firstname" >First Name<label>
             <input type="text" id="firstname" name="fname" >
             <br><br>
             <label for="lastname">Last Name<label>
