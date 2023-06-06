@@ -12,7 +12,7 @@
 
 ## Prerequisite
 > [Visual Studio Code Download](https://code.visualstudio.com/download)
-
+>
 > [GitHub Signup](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
 ### VSCODE Extensions to start with
 Extension name | Extension ID
@@ -119,13 +119,49 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 | `<strike>` | Represents strikethrough text.                               |
 | `<bookmark>` | Represents a bookmark or anchor point within an HTML document. |
     
- 
+#### Input Types
+| Input Type    | Description                                                             |
+| ------------- | ----------------------------------------------------------------------- |
+| `text`        | Single-line input field for plain text.                                   |
+| `password`    | Masked input field for passwords or sensitive information.               |
+| `email`       | Input field for email addresses.                                          |
+| `number`      | Input field for numeric values.                                           |
+| `date`        | Input field for selecting a date.                                         |
+| `checkbox`    | Checkbox for selecting multiple options.                                  |
+| `radio`       | Radio buttons for selecting a single option.                              |
+| `file`        | Input field for uploading files.                                          |
+| `textarea`    | Multi-line input field for longer text or comments.                       |
+| `select`      | Drop-down list for selecting an option from a list.                       |
+| `color`       | Input field for selecting a color.                                        |
+| `range`       | Slider input for selecting a value within a range.                        |
+
+#### Case Style
+| Case Style    | Description                                                           |
+| ------------- | --------------------------------------------------------------------- |
+| `camelCase`   | Style where words are joined together, and each subsequent word starts with a capital letter except for the first word. |
+| `PascalCase`  | Style where words are joined together, and each word starts with a capital letter. |
+| `kebab-case`  | Style where words are separated by hyphens.                            |
+| `snake_case`  | Style where words are separated by underscores.                        |
+
+#### HTML Form Attributes and Usage
+| Attribute   | Usage                                                         |
+| ----------- | ------------------------------------------------------------- |
+| `for`       | Associates a label with a form element. It specifies which form element the label belongs to. |
+| `type`      | Defines the type of input control to be displayed. It specifies the kind of data expected by the form element. |
+| `id`        | Provides a unique identifier for the form element. It is used to associate the element with a label or manipulate it through JavaScript or CSS. |
+| `required`  | Specifies that the form element must be filled out before submitting the form. It ensures the input is mandatory. |
+| `name`      | Specifies the name of the form element. It is used to identify the form data on the server-side when the form is submitted. |
+| `multiple`  | Allows multiple values to be selected for the form element. This attribute is typically used with `<select>` or `<input type="file">` elements. |
+| `pattern`   | Specifies a regular expression pattern that the form element's value must match for successful validation. |
+| `placeholder` | Provides a short hint or example text that is displayed in the form element before the user enters a value. |
+| `value`     | Sets the initial value for the form element. It can be used to pre-fill or preset the input with a default value. |
+
+
 ```html
 <body>
     <form action="#" method="post" enctype="application/x-www-form-urlencoded" >
         <fieldset>
             <legend>HTML Form</legend>
-            <!-- for,type,id, required and name-->
             <label for="firstname" >First Name<label>
             <input type="text" id="firstname" name="fname" required>
             <br><br>
@@ -152,23 +188,6 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
     <form action="#" method="post" enctype="application/x-www-form-urlencoded" >
         <fieldset>
             <legend>HTML Form</legend>
-
-            <!-- 
-                for
-                type
-                id
-                name
-                required
-                multiple
-                pattern
-                placeholder
-                value
-                camelCase - JavaScript
-                PascalCase - 
-                kebab-case - CSS
-                snake_Case - 
-            -->
-
             <label for="firstname" >First Name<label>
             <input type="text" id="firstname" name="fname" >
             <br><br>
@@ -246,14 +265,6 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
         </fieldset>
 </body>
 ```
-#### HTML Form Attributes and Usage
-| Attribute  | Usage                                                        |
-| ---------- | ------------------------------------------------------------ |
-| `for`      | Associates a label with a form element. It specifies which form element the label belongs to. |
-| `type`     | Defines the type of input control to be displayed. It specifies the kind of data expected by the form element. |
-| `id`       | Provides a unique identifier for the form element. It is used to associate the element with a label or manipulate it through JavaScript or CSS. |
-| `required` | Specifies that the form element must be filled out before submitting the form. It ensures the input is mandatory. |
-| `name`     | Specifies the name of the form element. It is used to identify the form data on the server-side when the form is submitted. |
 
   
 
