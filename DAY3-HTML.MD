@@ -1,4 +1,4 @@
-# 2 DAY HTML 06/03/2023
+# 3 DAY HTML 06/03/2023
 ## Contents
 > [Prerequisite](https://github.com/HexeCalibre/KodeGo/blob/master/DAY3-HTML.MD#prerequisite)
 >
@@ -142,6 +142,7 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 | `PascalCase`  | Style where words are joined together, and each word starts with a capital letter. |
 | `kebab-case`  | Style where words are separated by hyphens.                            |
 | `snake_case`  | Style where words are separated by underscores.                        |
+
 **camelCase:**
 - Usage: Style where words are joined together, and each subsequent word starts with a capital letter except for the first word. It is commonly used in JavaScript and other programming languages. It is recommended to use camelCase for variables, functions, and object properties.
 
