@@ -159,20 +159,20 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 
 
 #### HTML Form Attributes and Usage
-| Attribute   | Usage                                                         |
-| ----------- | ------------------------------------------------------------- |
-| `for`       | Associates a label with a form element. It specifies which form element the label belongs to. |
-| `type`      | Defines the type of input control to be displayed. It specifies the kind of data expected by the form element. |
-| `id`        | Provides a unique identifier for the form element. It is used to associate the element with a label or manipulate it through JavaScript or CSS. |
-| `required`  | Specifies that the form element must be filled out before submitting the form. It ensures the input is mandatory. |
-| `name`      | Specifies the name of the form element. It is used to identify the form data on the server-side when the form is submitted. |
-| `multiple`  | Allows multiple values to be selected for the form element. This attribute is typically used with `<select>` or `<input type="file">` elements. |
-| `pattern`   | Specifies a regular expression pattern that the form element's value must match for successful validation. |
-| `placeholder` | Provides a short hint or example text that is displayed in the form element before the user enters a value. |
-| `value`     | Sets the initial value for the form element. It can be used to pre-fill or preset the input with a default value. |
-| `maxlength` | Specifies the maximum number of characters that can be entered into an input field. |
-| `min`       | Specifies the minimum value allowed for a numeric input field. |
-| `max`       | Specifies the maximum value allowed for a numeric input field. |
+| Attribute      | Usage                                                         |
+| -------------- | ------------------------------------------------------------- |
+| `for`          | Associates a label with a form element. It specifies which form element the label belongs to. |
+| `type`         | Defines the type of input control to be displayed. It specifies the kind of data expected by the form element. |
+| `id`           | Provides a unique identifier for the form element. It is used to associate the element with a label or manipulate it through JavaScript or CSS. |
+| `required`     | Specifies that the form element must be filled out before submitting the form. It ensures the input is mandatory. |
+| `name`         | Specifies the name of the form element. It is used to identify the form data on the server-side when the form is submitted. |
+| `multiple`     | Allows multiple values to be selected for the form element. This attribute is typically used with `<select>` or `<input type="file">` elements. |
+| `pattern`      | Specifies a regular expression pattern that the form element's value must match for successful validation. |
+| `placeholder`  | Provides a short hint or example text that is displayed in the form element before the user enters a value. |
+| `value`        | Sets the initial value for the form element. It can be used to pre-fill or preset the input with a default value. |
+| `maxlength`    | Specifies the maximum number of characters that can be entered into an input field. |
+| `min`          | Specifies the minimum value allowed for a numeric input field. |
+| `max`          | Specifies the maximum value allowed for a numeric input field. |
 
 #### Example
 ```html
