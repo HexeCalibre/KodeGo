@@ -144,7 +144,7 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 | `snake_case`  | Style where words are separated by underscores.                        |
 
 **camelCase:**
->- Style where words are joined together, and each subsequent word starts with a capital letter except for the first word. It is commonly used in JavaScript and other programming languages. It is recommended to use camelCase for variables, functions, and object >properties.
+>- Style where words are joined together, and each subsequent word starts with a capital letter except for the first word. It is commonly used in JavaScript and other programming languages. It is recommended to use camelCase for variables, functions, and object properties.
 >
 >**PascalCase:**
 >- Style where words are joined together, and each word starts with a capital letter. It is commonly used for class names and constructor functions. It is recommended to use PascalCase for class and type names.
