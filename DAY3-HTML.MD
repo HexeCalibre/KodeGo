@@ -144,16 +144,16 @@ OOP (Object-Oriented Programming) is a programming approach that emphasizes orga
 | `snake_case`  | Style where words are separated by underscores.                        |
 
 **camelCase:**
-- Usage: Style where words are joined together, and each subsequent word starts with a capital letter except for the first word. It is commonly used in JavaScript and other programming languages. It is recommended to use camelCase for variables, functions, and object properties.
-
-**PascalCase:**
-- Usage: Style where words are joined together, and each word starts with a capital letter. It is commonly used for class names and constructor functions. It is recommended to use PascalCase for class and type names.
-
-**kebab-case:**
-- Usage: Style where words are separated by hyphens ("-"). It is commonly used in URLs, file names, and CSS class names. It is recommended to use kebab-case for HTML attributes and CSS class names.
-
-**snake_case:**
-- Usage: Style where words are separated by underscores ("_"). It is commonly used in Python and some other programming languages. It is recommended to use snake_case for variable and function names in Python.
+>- Style where words are joined together, and each subsequent word starts with a capital letter except for the first word. It is commonly used in JavaScript and other programming languages. It is recommended to use camelCase for variables, functions, and object >properties.
+>
+>**PascalCase:**
+>- Style where words are joined together, and each word starts with a capital letter. It is commonly used for class names and constructor functions. It is recommended to use PascalCase for class and type names.
+>
+>**kebab-case:**
+>- Style where words are separated by hyphens ("-"). It is commonly used in URLs, file names, and CSS class names. It is recommended to use kebab-case for HTML attributes and CSS class names.
+>
+>**snake_case:**
+>- Style where words are separated by underscores ("_"). It is commonly used in Python and some other programming languages. It is recommended to use snake_case for variable and function names in Python.
 
 
 #### HTML Form Attributes and Usage
