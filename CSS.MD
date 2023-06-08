@@ -51,4 +51,66 @@ uses and external CSS file which is linked by the <link> element inside the <hea
 ```css
   /* this is a comment */
 ```
+#### How to root
+```css
+*{
+   font-size: 20px;
+}
+```
+##### Ways to set a color
+###### Color name
+```css
+h1{
+   color: red;
+}
+``` 
+###### Hexadecimal
+```css
+h1{
+   color: #ff0000;
+}
+``` 
+###### RGB
+```css
+h1{
+   color: rgb(255, 255, 0);
+}
+``` 
+##### How to use class with divs
+```html
+ <div class="container">
+  <div class="main-content">
+   <h1> CSS Introduction</h1>
+  </div>
+  <div class="sub-content">
+  <h2> CSS Subcontent</h2>
+</div>
+</div>
+```
+```css
+    container {
+    }
+    main-content{
+    }
+    sub-content{
+    }
+```
+                          
+class vs id
 
+targeting
+selector
+propertyname
+propertyvalue
+call back font
+parent
+class
+id
+container
+
+                               
+color
+background-color
+font-family
+                               
+                               
