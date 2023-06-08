@@ -1,4 +1,4 @@
-# DAY 1 CASCADING STYLE SHEET (06-08-2023)
+# DAY 1 CSS (06-08-2023)
 ## What is CSS?
 CSS stands for Cascading Style Sheet
 CSS is used to style a HTML document
@@ -43,9 +43,12 @@ uses and external CSS file which is linked by the <link> element inside the <hea
    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
                                
    body {
-                               font-family: 'Lato', sans-serif;
+         font-family: 'Lato', sans-serif;
        }
  ```
-                            
-                            
-  
+
+#### How to comment?
+```css
+  /* this is a comment */
+```
+
