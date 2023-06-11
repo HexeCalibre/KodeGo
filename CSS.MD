@@ -120,6 +120,7 @@ Example: Select all `<h1>` elements on the page.
 h1 {
   color: red;
 }
+ ```
 ### Class Selector
 Class selector targets elements based on their class attribute.
 
