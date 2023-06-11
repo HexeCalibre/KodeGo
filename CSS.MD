@@ -89,6 +89,8 @@ Understanding targeting in CSS is crucial for effective web development and styl
 | Selectors    | Selectors allow us to target elements based on their tag names, classes, IDs, or attributes. |
 | Pseudo-classes | Pseudo-classes target elements based on specific states or conditions.                          |
 | Combinators  | Combinators help select elements based on their relationship with other elements.              |
+ 
+![CSS Box Model] (images/css box model.png)
 
  
  ### How to Comment
