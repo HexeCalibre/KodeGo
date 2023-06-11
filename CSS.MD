@@ -59,6 +59,7 @@ body {
 | Property Value  | Specifies the desired value for the corresponding property.      |
 
  
+ ![CSS Anatomy](images/cssanatomy3.png)
  
  ### How to Comment
  ```css
