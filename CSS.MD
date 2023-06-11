@@ -47,5 +47,33 @@ body {
    font-family: 'Lato', sans-serif;
 }
  ```
+ ### How to Comment
+ ```html
+ /* This is a comment */
+ ```
+ 
+ ### The Root Selector
+ ```html
+ * {
+   font-size: 20px;
+}
+ ```
+ ### Ways to set a color
+ ```html
+ /* Color Name */
+ h1 {
+   color: red;
+}
+/* Hexadecimal */
+ h1 {
+   color: #ff0000;
+}
+/* RGB */
+ h1 {
+   color: rgb(255, 255, 0);
+}
+```
+
+
 
 
