@@ -384,6 +384,8 @@ Flexbox has several properties that control the layout and behavior of flex cont
 >
 >By utilizing these Flexbox properties effectively, you can create flexible and responsive layouts with ease.
 
+![CSS Flexbox Cheatsheet](images/css_flex_box.png)
+ 
 ## CSS Grid
 
 CSS Grid is a layout module that provides a two-dimensional grid system for creating complex and responsive web layouts. It allows you to define rows and columns, and position items within the grid, providing powerful control over the layout structure.
@@ -423,6 +425,7 @@ These properties allow you to define the grid structure, position grid items wit
 
 Remember that CSS Grid works with both rows and columns, and you can create complex layouts by combining and nesting grids. By utilizing these Grid properties effectively, you can create highly flexible and responsive layouts for your web pages.
 
+ ![CSS Grid Cheatsheet](images/css_grid.png)
 
 
 
