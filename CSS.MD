@@ -221,29 +221,6 @@ Including comments in your CSS code is a good practice that can greatly benefit 
  ```css
  /* This is a comment */
  ```
-### Common Selector Name List
- | Selector Name | Function                                     |
-|---------------|----------------------------------------------|
-| `#header`     | Represents the header section of a webpage    |
-| `#content`    | Represents the main content area              |
-| `#sidebar`    | Represents a sidebar or secondary content     |
-| `#footer`     | Represents the footer section of a webpage    |
-| `#navigation` | Represents a navigation menu or links         |
-| `#logo`       | Represents the website or brand logo          |
-| `#banner`     | Represents a prominent banner or advertisement|
-| `#carousel`   | Represents a carousel or image slider         |
-| `#form`       | Represents a form element or form container   |
-| `#modal`      | Represents a modal or dialog box              |
-| `.container`  | Defines a container element or wrapper         |
-| `.title`      | Applies styling to a title or heading          |
-| `.button`     | Represents a button element                   |
-| `.nav-link`   | Defines a navigation link or menu item         |
-| `.card`       | Represents a card or card-like element         |
-| `.menu`       | Represents a menu or navigation component     |
-| `.section`    | Defines a section or content block             |
-| `.highlight`  | Applies highlighting effect to an element      |
-| `.text-muted` | Defines muted or subdued text                  |
-| `.alert`      | Represents an alert or notification component  |
  
 ## CSS approach or methodology
 - refers to a set of principles and guidelines for organizing and structuring CSS code. It provides a systematic way to manage styles, improve code reusability, and enhance maintainability of CSS in web development projects.
@@ -271,7 +248,93 @@ Including comments in your CSS code is a good practice that can greatly benefit 
 | Flexbox CSS                  | Layout system for creating flexible and responsive designs with CSS.         |
 | CSS Grid Layout              | Grid-based layout system for creating complex and responsive web layouts.    |
 | Inverted Triangle CSS (ITCSS)| CSS architecture that organizes styles based on specificity and inheritance. |
+ 
+ 
+## Common Selector Name List
+ | Selector Name | Function                                     |
+|---------------|----------------------------------------------|
+| `#header`     | Represents the header section of a webpage    |
+| `#content`    | Represents the main content area              |
+| `#sidebar`    | Represents a sidebar or secondary content     |
+| `#footer`     | Represents the footer section of a webpage    |
+| `#navigation` | Represents a navigation menu or links         |
+| `#logo`       | Represents the website or brand logo          |
+| `#banner`     | Represents a prominent banner or advertisement|
+| `#carousel`   | Represents a carousel or image slider         |
+| `#form`       | Represents a form element or form container   |
+| `#modal`      | Represents a modal or dialog box              |
+| `.container`  | Defines a container element or wrapper         |
+| `.title`      | Applies styling to a title or heading          |
+| `.button`     | Represents a button element                   |
+| `.nav-link`   | Defines a navigation link or menu item         |
+| `.card`       | Represents a card or card-like element         |
+| `.menu`       | Represents a menu or navigation component     |
+| `.section`    | Defines a section or content block             |
+| `.highlight`  | Applies highlighting effect to an element      |
+| `.text-muted` | Defines muted or subdued text                  |
+| `.alert`      | Represents an alert or notification component  |
 
+ 
+ ## CSS Property Names and Functions
+
+| Property Name      | Function                               | Parameters (if available)                       |
+|--------------------|----------------------------------------|-------------------------------------------------|
+| `color`            | Sets the text color                    | Color value                                     |
+| `background-color` | Sets the background color              | Color value                                     |
+| `font-size`        | Sets the font size                     | Size value                                      |
+| `font-family`      | Sets the font family                   | Font family name(s)                             |
+| `text-align`       | Sets the horizontal alignment of text  | `left`, `right`, `center`, `justify`            |
+| `margin`           | Sets the margin around an element      | Size value or `auto`                            |
+| `padding`          | Sets the padding inside an element     | Size value or `auto`                            |
+| `border`           | Sets the border style, width, and color| Style, width value, and color value              |
+| `width`            | Sets the width of an element           | Size value or `auto`                            |
+| `height`           | Sets the height of an element          | Size value or `auto`                            |
+| `display`          | Sets how an element is displayed       | `block`, `inline`, `inline-block`, `flex`, etc.  |
+| `position`         | Sets the positioning method of an element | `static`, `relative`, `absolute`, `fixed`, etc. |
+| `float`            | Sets the horizontal alignment of an element | `left`, `right`, `none`                       |
+| `text-decoration`  | Sets the decoration of text            | `none`, `underline`, `line-through`, etc.        |
+| `text-transform`   | Sets the capitalization of text        | `capitalize`, `uppercase`, `lowercase`, `none`   |
+| `box-shadow`       | Sets the shadow of an element          | Shadow parameters (e.g., color, offset, blur radius) |
+| `transition`       | Sets the transition effects on an element | Transition parameters (e.g., property, duration) |
+| `animation`        | Sets the animation effects on an element | Animation parameters (e.g., name, duration)      |
+ 
+ ## Absolute Units
+ - These units are considered absolute because they represent fixed measurements that do not change based on the context or size of other elements. They provide precise control over element dimensions, font sizes, and other properties.
+
+ | Unit   | Description                                      | Example               |
+|--------|--------------------------------------------------|-----------------------|
+| cm     | Centimeters                                      | `width: 5cm;`         |
+| mm     | Millimeters                                      | `font-size: 3mm;`     |
+| in     | Inches                                           | `margin-top: 0.5in;`  |
+| px     | Pixels                                           | `padding-left: 10px;` |
+| pt     | Points (1pt = 1/72 of an inch)                    | `font-size: 12pt;`    |
+| pc     | Picas (1pc = 12 points)                           | `line-height: 1.5pc;` |
+| Q      | Quarter-millimeters                               | `border-width: 0.25Q;`|
+| rem    | Relative to the root element's font size          | `margin-bottom: 1.5rem;` |
+| vw     | Relative to the viewport width                    | `width: 50vw;`        |
+| vh     | Relative to the viewport height                   | `height: 75vh;`       |
+| vmin   | Relative to the smaller dimension of the viewport | `font-size: 3vmin;`   |
+| vmax   | Relative to the larger dimension of the viewport  | `padding: 2vmax;`     |
+ 
+ ## Relative Units
+ - These units are considered relative because they are calculated based on some reference point or context. They allow for flexible and responsive designs, as they adapt to changes in the parent element, viewport size, or root font size.
+
+ | Unit   | Description                                      | Example                |
+|--------|--------------------------------------------------|------------------------|
+| em     | Relative to the font-size of the element          | `margin: 1em;`         |
+| ex     | Relative to the x-height of the font              | `line-height: 2ex;`    |
+| ch     | Relative to the width of the "0" (zero) character | `width: 10ch;`         |
+| %      | Relative to the parent element's property value   | `width: 50%;`          |
+| fr     | Fractional unit                                  | `grid-template-columns: 1fr 2fr;` |
+| rem    | Relative to the root element's font size          | `font-size: 1.2rem;`   |
+| vw     | Relative to the viewport width                    | `width: 25vw;`         |
+| vh     | Relative to the viewport height                   | `height: 50vh;`        |
+| vmin   | Relative to the smaller dimension of the viewport | `font-size: 2vmin;`    |
+| vmax   | Relative to the larger dimension of the viewport  | `padding: 3vmax;`      |
+
+
+
+ 
  ### The Root Selector
  ```css
  * {
@@ -293,6 +356,8 @@ Including comments in your CSS code is a good practice that can greatly benefit 
    color: rgb(255, 255, 0);
 }
 ```
+ 
+ 
 
 
 
