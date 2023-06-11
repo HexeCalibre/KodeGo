@@ -98,24 +98,64 @@ Example:
 | Property Value  | Specifies the desired value for the corresponding property.      |
  
  
-## What is Targeting?
+## What is CSS Selector
 
-Targeting in CSS refers to the process of selecting specific HTML elements to apply styles or modify their behavior. It involves using selectors, pseudo-classes, and combinators to pinpoint the elements you want to target.
+CSS Selector is a pattern used to select and style specific elements on a web page. Selectors allow you to target elements based on their attributes, types, classes, or relationships with other elements.
 
-### Why Do We Need to Know Targeting?
+There are five categories of CSS selectors:
 
-Understanding targeting in CSS is crucial for effective web development and styling. Here are a few reasons why it is important to grasp this concept:
- 
-| Benefits of CSS Targeting      |                                                  |
-|-------------------------------|--------------------------------------------------|
-| Selective Styling             | Apply styles selectively to specific elements, enhancing visual appearance.    |
-| Modifying Behavior            | Modify element behavior through CSS rules, enabling interactivity and effects.  |
-| Efficient Styling             | Write more efficient and concise CSS code, reducing redundancy and improving performance. |
-| Maintainable Code             | Better organization and structure in CSS code, making it easier to maintain and update styles. |
-| Consistency                   | Ensure consistent styling across web pages, creating a cohesive user experience. |
+| Category          | Function and Example                                               |
+|-------------------|-------------------------------------------------------------------|
+| Type Selector     | Targets elements based on their element type.                     |
+| Class Selector    | Targets elements based on their class attribute.                  |
+| ID Selector       | Targets elements based on their ID attribute.                     |
+| Attribute Selector | Targets elements based on their attribute values.                 |
+| Pseudo-class Selector | Targets elements based on special states or conditions.           |
 
+### Type Selector
+Type selector targets elements based on their element type.
 
+Example: Select all `<h1>` elements on the page.
+```css
+h1 {
+  color: red;
+}
+### Class Selector
+Class selector targets elements based on their class attribute.
 
+Example: Select all elements with the class "highlight".
+```css
+ .highlight {
+  background-color: yellow;
+}
+```
+### ID Selector
+ID selector targets elements based on their ID attribute.
+
+Example: Select the element with the ID "logo".
+```css
+ #logo {
+  width: 100px;
+}
+```
+### Attribute Selector
+Attribute selector targets elements based on their attribute values.
+
+Example: Select all elements with the attribute "target" set to "_blank".
+ ```css
+ [target="_blank"] {
+  text-decoration: underline;
+}
+```
+### Pseudo-class Selector
+Pseudo-class selector targets elements based on special states or conditions.
+
+Example: Select the first child of an element.
+```css
+ :first-child {
+  font-weight: bold;
+}
+```
 ### Targeting Methods
 
 | Method       | Description                                                                                   |
