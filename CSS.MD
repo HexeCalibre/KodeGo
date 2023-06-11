@@ -332,15 +332,19 @@ Including comments in your CSS code is a good practice that can greatly benefit 
 | vmin   | Relative to the smaller dimension of the viewport | `font-size: 2vmin;`    |
 | vmax   | Relative to the larger dimension of the viewport  | `padding: 3vmax;`      |
 
+## * VS :root
+> The * selector selects all elements in the document, allowing you to apply styles globally. It is often used for reset styles or to apply a common style to all elements.
+>
+> On the other hand, :root represents the root element of the document, which is usually the <html> tag. It allows you to target specific styles to the root element. This is particularly useful when defining CSS custom
+> properties (variables) at the root level.
+>
+> Both * and :root can be used to apply styles, but they have different scopes and use cases.
 
+| Symbol | Description                                                                         |
+|--------|-------------------------------------------------------------------------------------|
+| *      | Represents all elements in the document. It applies styles globally.               |
+| :root  | Represents the root element of the document, which is typically the `<html>` tag.   |
 
- 
- ### The Root Selector
- ```css
- * {
-   font-size: 20px;
-}
- ```
  ### Ways to set a color
  ```css
  /* Color Name */
