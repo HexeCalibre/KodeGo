@@ -74,9 +74,9 @@ Example:
 }
 ```
 > To target an element by ID, use the ID selector with the corresponding ID name. For example, if you have an element with the ID of my-id, you can target it using #my-id in your CSS.
-
+>
 > To target elements by class, use the class selector with the corresponding class name. For example, if you have multiple elements with the class of my-class, you can target them using .my-class in your CSS.
-
+>
 > Remember to replace my-id and my-class with the actual ID and class names used in your HTML code.
 
 
