@@ -40,7 +40,7 @@
 </head>
  ```
  #### CSS file
- ```html
+ ```css
  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 body {
@@ -48,18 +48,18 @@ body {
 }
  ```
  ### How to Comment
- ```html
+ ```css
  /* This is a comment */
  ```
  
  ### The Root Selector
- ```html
+ ```css
  * {
    font-size: 20px;
 }
  ```
  ### Ways to set a color
- ```html
+ ```css
  /* Color Name */
  h1 {
    color: red;
