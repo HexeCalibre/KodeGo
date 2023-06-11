@@ -156,14 +156,27 @@ Example: Select the first child of an element.
   font-weight: bold;
 }
 ```
-### Targeting Methods
+## CSS Combinators
 
-| Method       | Description                                                                                   |
-|--------------|-----------------------------------------------------------------------------------------------|
-| Selectors    | Selectors allow us to target elements based on their tag names, classes, IDs, or attributes. |
-| Pseudo-classes | Pseudo-classes target elements based on specific states or conditions.                          |
-| Combinators  | Combinators help select elements based on their relationship with other elements.              |
+A combinator is something that explains the relationship between the selectors.
+
+A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+
+There are four different combinators in CSS:
  
+### CSS Combinators
+
+A combinator is something that explains the relationship between the selectors. A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+
+There are four different combinators in CSS:
+
+| Combinator              | Description                                            | Example                                          |
+|-------------------------|--------------------------------------------------------|--------------------------------------------------|
+| Descendant Selector     | Matches all elements that are descendants of a specified element. | `div p` { background-color: yellow; }           |
+| Child Selector          | Selects all elements that are the children of a specified element. | `parent > child` { /* CSS rules */ }            |
+| Adjacent Sibling Selector | Selects an element that is directly after another specific element. | `element + sibling` { /* CSS rules */ }         |
+| General Sibling Selector | Selects all elements that are next siblings of a specified element. | `element ~ sibling` { /* CSS rules */ }         |
+
 ![CSS Box Model](images/css_box_model.png)
 
  
