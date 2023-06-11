@@ -50,7 +50,8 @@ body {
  
 ## CSS Anatomy
 > Knowing about CSS anatomy is important because it provides a structured understanding of the different components and terminology used in CSS. Understanding the roles and relationships between selectors, pseudo-?
-> classes, declarations, property names, and property values helps in writing more efficient and targeted CSS code. It allows developers to style specific elements, apply different styles based on element states, and > > > control various aspects of element appearance and behavior.
+> classes, declarations, property names, and property values helps in writing more efficient and targeted CSS code. It allows developers to style specific elements, apply different styles based on element states, and 
+> control various aspects of element appearance and behavior.
  
  | Term            | Description                                                     |
 |-----------------|-----------------------------------------------------------------|
