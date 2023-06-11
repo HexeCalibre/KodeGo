@@ -105,16 +105,15 @@ Targeting in CSS refers to the process of selecting specific HTML elements to ap
 ### Why Do We Need to Know Targeting?
 
 Understanding targeting in CSS is crucial for effective web development and styling. Here are a few reasons why it is important to grasp this concept:
+ 
+| Benefits of CSS Targeting                                            |
+|---------------------------------------------------------------------|
+| **Selective Styling**      | Apply styles selectively to specific elements, enhancing visual appearance.    |
+| **Modifying Behavior**     | Modify element behavior through CSS rules, enabling interactivity and effects.  |
+| **Efficient Styling**      | Write more efficient and concise CSS code, reducing redundancy and improving performance. |
+| **Maintainable Code**      | Better organization and structure in CSS code, making it easier to maintain and update styles. |
+| **Consistency**            | Ensure consistent styling across web pages, creating a cohesive user experience. |
 
-- **Selective Styling**: Targeting allows us to apply styles selectively to specific elements, enhancing the visual appearance of our web pages.
-
-- **Modifying Behavior**: By targeting elements, we can modify their behavior through CSS rules, enabling interactivity and dynamic effects.
-
-- **Efficient Styling**: Knowing how to target elements helps us write more efficient and concise CSS code, reducing redundancy and improving performance.
-
-- **Maintainable Code**: Targeting allows for better organization and structure in our CSS code, making it easier to maintain and update styles.
-
-- **Consistency**: By understanding targeting, we can ensure consistent styling across our web pages, creating a cohesive user experience.
 
 ### Targeting Methods
 
