@@ -48,6 +48,40 @@ body {
 }
  ```
  
+## ID vs Class: Targeting and Usage
+
+In CSS, both IDs and classes are used for targeting specific elements, but they have distinct characteristics and purposes. Here's a comparison of IDs and classes, along with examples of how to target them:
+
+### ID Selector
+
+- Represents a unique identifier for an element.
+- Denoted by the `#` symbol followed by the ID name.
+
+Example:
+```css
+#my-id {
+  /* Styles applied to the element with ID 'my-id' */
+}
+ ```
+ 
+### Class Selector
+- Represents a group or category of elements. Denoted by a dot (.) followed by the class name.
+ 
+Example:
+```css
+.my-class {
+  /* Styles applied to all elements with the class 'my-class' */
+}
+```
+> To target an element by ID, use the ID selector with the corresponding ID name. For example, if you have an element with the ID of my-id, you can target it using #my-id in your CSS.
+
+> To target elements by class, use the class selector with the corresponding class name. For example, if you have multiple elements with the class of my-class, you can target them using .my-class in your CSS.
+
+> Remember to replace my-id and my-class with the actual ID and class names used in your HTML code.
+
+
+
+ 
 ## CSS Anatomy
 > Knowing about CSS anatomy is important because it provides a structured understanding of the different components and terminology used in CSS. Understanding the roles and relationships between selectors, pseudo-?
 > classes, declarations, property names, and property values helps in writing more efficient and targeted CSS code. It allows developers to style specific elements, apply different styles based on element states, and 
