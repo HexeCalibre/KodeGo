@@ -45,6 +45,21 @@ body {
    font-family: 'Lato', sans-serif;
 }
  ```
+ 
+ ### CSS Anatomy
+> Knowing about CSS anatomy is important because it provides a structured understanding of the different components and terminology used in CSS. Understanding the roles and relationships between selectors, pseudo-?
+> classes, declarations, property names, and property values helps in writing more efficient and targeted CSS code. It allows developers to style specific elements, apply different styles based on element states, and > > > control various aspects of element appearance and behavior.
+ 
+ | Term            | Description                                                     |
+|-----------------|-----------------------------------------------------------------|
+| Selector        | Specifies which HTML elements the CSS rules will be applied to.  |
+| Pseudo Class    | Represents a specific state or condition of an element.          |
+| Declaration     | Consists of a property name and value, separated by a colon.     |
+| Property Name   | Identifies the specific CSS property to be modified.             |
+| Property Value  | Specifies the desired value for the corresponding property.      |
+
+ 
+ 
  ### How to Comment
  ```css
  /* This is a comment */
