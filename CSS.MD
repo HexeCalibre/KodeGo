@@ -53,6 +53,8 @@ body {
 > classes, declarations, property names, and property values helps in writing more efficient and targeted CSS code. It allows developers to style specific elements, apply different styles based on element states, and 
 > control various aspects of element appearance and behavior.
  
+ ![CSS Anatomy](images/cssanatomy3.png)
+ 
  | Term            | Description                                                     |
 |-----------------|-----------------------------------------------------------------|
 | Selector        | Specifies which HTML elements the CSS rules will be applied to.  |
@@ -61,7 +63,6 @@ body {
 | Property Name   | Identifies the specific CSS property to be modified.             |
 | Property Value  | Specifies the desired value for the corresponding property.      |
  
- ![CSS Anatomy](images/cssanatomy3.png)
  
 ## What is Targeting?
 
