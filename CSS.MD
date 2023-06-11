@@ -171,6 +171,21 @@ There are four different combinators in CSS:
 | Child Selector          | Selects all elements that are the children of a specified element. | `parent > child` { /* CSS rules */ }            |
 | Adjacent Sibling Selector | Selects an element that is directly after another specific element. | `element + sibling` { /* CSS rules */ }         |
 | General Sibling Selector | Selects all elements that are next siblings of a specified element. | `element ~ sibling` { /* CSS rules */ }         |
+ 
+ ## CSS Box Model
+
+The CSS Box Model is a fundamental concept in CSS that describes how elements are laid out on the web page. It consists of four main components:
+
+1. Content: It represents the actual content of the element, such as text, images, or other media.
+
+2. Padding: It creates space around the content inside the element. It is transparent by default and can be set using the `padding` property.
+
+3. Border: It is a line that surrounds the padding and content. It can be styled and customized using properties like `border-width`, `border-color`, and `border-style`.
+
+4. Margin: It creates space outside the element, separating it from other elements on the page. It can be set using the `margin` property.
+
+The diagram below illustrates the CSS Box Model:
+
 
 ![CSS Box Model](images/css_box_model.png)
 
