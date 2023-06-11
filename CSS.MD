@@ -90,7 +90,7 @@ Understanding targeting in CSS is crucial for effective web development and styl
 | Pseudo-classes | Pseudo-classes target elements based on specific states or conditions.                          |
 | Combinators  | Combinators help select elements based on their relationship with other elements.              |
  
-![CSS Box Model](images/css box model.png)
+![CSS Box Model](images/css_box_model.png)
 
  
  ### How to Comment
