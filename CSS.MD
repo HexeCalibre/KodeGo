@@ -32,8 +32,8 @@
 </body>
 ```
 ### External CSS
-#### HTML file
 - Uses an external CSS file which is linked by the <link> element inside the <head> of the HTML page.
+ #### HTML file
  ```html
  <head>
   <link rel="stylesheet" href="css/style.css">
