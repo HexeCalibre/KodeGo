@@ -44,7 +44,14 @@
 - You need to be a little artistic
 - Every developer has its own way of using CSS
 
-## Where I can learn CSS?
+## Where can I learn CSS?
+
+[SoloLearn](https://www.sololearn.com/users/login?returnUrl=%2Fprofile)
+
+[W3Schools](https://www.w3schools.com/html/default.asp)
+
+[Roadmap.sh](https://roadmap.sh/frontend)
+
 
 ## Types of CSS
 ### Inline CSS
