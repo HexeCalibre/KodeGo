@@ -1,6 +1,37 @@
 # 3 DAY CSS (06-08-2023)
 
 ## Contents
+[What is CSS?](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#what-is-css)
+
+[Prerequisite and Reminder](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#prerequisite-and-reminder)
+
+[Types of CSS](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#types-of-css)
+
+[ID VS Class](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#id-vs-class-targeting-and-usage)
+
+[CSS Anatomy](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#css-anatomy)
+
+[CSS Selectors](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#what-is-css-selector)
+
+[CSS Combinators](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#css-combinators)
+
+[CSS Box Model](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#css-box-model)
+
+[CSS Comments](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#importance-of-comments-in-css)
+
+[CSS Approach/Methodology](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#css-approach-or-methodology)
+
+[Common Selector Name List](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#common-selector-name-list)
+
+[CSS Properties](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#css-property-names-and-functions)
+
+[Metric Units](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#absolute-units)
+
+[* vs :root](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#-vs-root)
+
+[CSS Flexbox](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#css-flexbox)
+
+[CSS Grid](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#css-grid)
 
 ## What is CSS?
 - CSS stands for Cascading Style Sheet
@@ -12,6 +43,8 @@
 - You need to know HTML
 - You need to be a little artistic
 - Every developer has its own way of using CSS
+
+## Where I can learn CSS?
 
 ## Types of CSS
 ### Inline CSS
