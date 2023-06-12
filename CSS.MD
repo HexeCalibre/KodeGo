@@ -5,6 +5,8 @@
 
 [Prerequisite and Reminder](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#prerequisite-and-reminder)
 
+[Where can I learn CSS?](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#where-i-can-learn-css)
+
 [Types of CSS](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#types-of-css)
 
 [ID VS Class](https://github.com/HexeCalibre/KodeGo/blob/master/CSS.MD#id-vs-class-targeting-and-usage)
