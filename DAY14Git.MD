@@ -1,4 +1,4 @@
-# KODEGO GitHub Demo Day 1 (06/17/23)
+# KODEGO GitHub Demo Day 2 (06/17/23)
 ## Contents
 
 [Prerequisite](https://github.com/HexeCalibre/my-test-repo/blob/master/README.MD#prerequisite)
