@@ -249,6 +249,38 @@ Feel free to explore the Git documentation and additional resources for more adv
 
 [Learn more about git remote](https://git-scm.com/docs/git-remote)
 
+## Conflict in GitHub
+
+When collaborating with others on a project using GitHub, conflicts can occur when multiple people make changes to the same file or code at the same time. A conflict happens when Git is unable to automatically merge the changes and requires manual intervention to resolve the differences.
+
+### Identifying a Conflict
+
+Conflicts are typically identified when you attempt to merge or pull changes from a remote repository into your local repository. Git will notify you if there are conflicts and provide information about the affected files.
+
+### Resolving a Conflict
+
+To resolve a conflict in GitHub, follow these steps:
+
+1. **Pull the Latest Changes**: Before resolving conflicts, make sure you have the latest changes from the remote repository. Use the command `git pull origin branch-name` to fetch and merge the changes.
+
+2. **Identify the Conflicting Files**: Git will highlight the conflicting files and mark the conflicting lines within those files. Open the conflicted file(s) in a text editor or an integrated development environment (IDE).
+
+3. **Locate and Edit the Conflict**: Inside the conflicted file, Git will mark the conflicting lines with special characters like `<<<<<<<`, `=======`, and `>>>>>>>`. These markers separate the conflicting changes made by different contributors.
+
+4. **Resolve the Conflict**: Review the conflicting changes and decide which changes to keep or modify. Remove the conflict markers and edit the code to create a resolution that integrates both sets of changes appropriately.
+
+5. **Save and Commit the Changes**: Once you've resolved the conflict, save the file and stage it for commit using the command `git add path/to/file`. Repeat this step for all conflicted files.
+
+6. **Commit the Changes**: Finally, create a new commit with a meaningful message to document the conflict resolution. Use the command `git commit -m "Resolved conflict in file-name"`.
+
+7. **Push the Changes**: After committing the changes, push the resolved conflict to the remote repository using `git push origin branch-name`.
+
+## Communication and Collaboration
+
+It's essential to communicate with other contributors involved in the conflict to ensure a smooth resolution. Discussing the changes and reaching a consensus can help prevent future conflicts and improve collaboration.
+
+By following these steps and maintaining effective communication, you can successfully resolve conflicts in GitHub and ensure the integrity of your collaborative project.
+
 ## Documentation
 ### What is Documentation?
 
