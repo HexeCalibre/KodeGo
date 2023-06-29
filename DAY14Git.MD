@@ -299,7 +299,9 @@ git reset <commit>
 There are three reset options you can choose from:
 
 --soft: Resets the branch and keeps the changes from the commits as uncommitted changes.
+
 --mixed (default): Resets the branch and stages the changes from the commits, but keeps them as modified files.
+
 --hard: Resets the branch and discards all changes from the commits.
 
 
