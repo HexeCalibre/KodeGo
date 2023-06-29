@@ -284,7 +284,7 @@ By following these steps and maintaining effective communication, you can succes
 
 ## Undoing Changes in Git
 
-Git provides several options to undo changes made to a repository. Whether you want to revert a commit, restore a previous state, or discard local modifications, Git offers different commands to accomplish these tasks.
+Git provides several options to undo changes made to a repository. Whether you want to revert a commit, restore a previous state, discard local modifications, or selectively apply commits, Git offers different commands to accomplish these tasks.
 
 ### Reset
 
@@ -298,13 +298,13 @@ git reset <commit>
 
 There are three reset options you can choose from:
 
-- `--soft`: Resets the branch and keeps the changes from the commits as uncommitted changes.
-- `--mixed` (default): Resets the branch and stages the changes from the commits, but keeps them as modified files.
-- `--hard`: Resets the branch and discards all changes from the commits.
+--soft: Resets the branch and keeps the changes from the commits as uncommitted changes.
+--mixed (default): Resets the branch and stages the changes from the commits, but keeps them as modified files.
+--hard: Resets the branch and discards all changes from the commits.
 
-### Revert
 
-The `git revert` command allows you to create a new commit that undoes the changes made in a specific commit. Unlike `git reset`, which removes commits, `git revert` adds a new commit that reverses the changes while keeping the commit history intact.
+Revert
+The git revert command allows you to create a new commit that undoes the changes made in a specific commit. Unlike git reset, which removes commits, git revert adds a new commit that reverses the changes while keeping the commit history intact.
 
 To revert a commit, use the following command:
 
@@ -314,9 +314,8 @@ git revert <commit>
 
 Git will create a new commit that undoes the changes introduced in the specified commit.
 
-### Restore
-
-The `git restore` command enables you to restore individual files or the entire working directory to a previous state without creating new commits. It can be helpful when you want to discard local modifications and revert files to a known good state.
+Restore
+The git restore command enables you to restore individual files or the entire working directory to a previous state without creating new commits. It can be helpful when you want to discard local modifications and revert files to a known good state.
 
 To restore a file or directory to a previous state, use the following command:
 
@@ -324,11 +323,10 @@ To restore a file or directory to a previous state, use the following command:
 git restore <file or directory>
 ```
 
-You can specify the commit or branch to restore from or use the `--source` flag followed by a commit to specify the source commit.
+You can specify the commit or branch to restore from or use the --source flag followed by a commit to specify the source commit.
 
-## Checkout
-
-The `git checkout` command allows you to switch between branches, restore files, or revert to a specific commit. It can be used to discard local changes and restore files to a previous state.
+Checkout
+The git checkout command allows you to switch between branches, restore files, or revert to a specific commit. It can be used to discard local changes and restore files to a previous state.
 
 To restore a file to a previous state, use the following command:
 
@@ -338,13 +336,27 @@ git checkout <commit> -- <file>
 
 The specified file will be replaced with the version from the specified commit.
 
-### Conclusion
+Cherry Pick
+The git cherry-pick command allows you to apply specific commits from one branch to another. It is useful when you want to select and apply individual commits from one branch to another without merging the entire branch.
 
-Git provides several options for undoing changes, including `git reset`, `git revert`, `git restore`, and `git checkout`. Each command serves a different purpose and offers flexibility in managing your repository's history and file states.
+To cherry pick a commit, use the following command:
 
-Care should be taken when using these commands, especially when discarding or modifying commits, to avoid permanent loss of data. It's recommended to create backups or make copies of important files before performing any undo operations.
+```bash
+git cherry-pick <commit>
+```
 
-Remember to consult the Git documentation or use the `--help` option for each command to explore their detailed usage and options.
+Git will apply the changes introduced by the specified commit to the current branch. The new commit created by git cherry-pick will have a new commit hash but will contain the same changes as the original commit.
+
+Cherry picking can be particularly useful in the following scenarios:
+
+Applying a bug fix from one branch to another without merging the entire branch.
+Bringing specific features or changes from one branch to another.
+It's important to note that cherry picking a commit introduces a new commit into the branch's history. Therefore, it's essential to review and ensure that the cherry-picked changes are compatible and do not conflict with the target branch.
+
+Conclusion
+Git provides several options for undoing changes, including git reset, git revert, git restore, git checkout, and git cherry-pick. Each command serves a different purpose and offers flexibility in managing your repository's history and file states.
+
+Care should be taken when using these commands, especially when discarding or modifying commits, to avoid
 
 ## Documentation
 ### What is Documentation?
