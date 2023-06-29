@@ -360,6 +360,34 @@ Git provides several options for undoing changes, including git reset, git rever
 
 Care should be taken when using these commands, especially when discarding or modifying commits, to avoid
 
+## Forking
+
+Forking is a feature in Git that allows you to create a personal copy of a repository on a remote server. When you fork a repository, you create a separate copy that you can freely modify without affecting the original repository.
+
+To fork a repository, follow these steps:
+
+1. Navigate to the repository you want to fork on the Git hosting platform (e.g., GitHub).
+2. Click on the "Fork" button, usually located in the upper-right corner of the repository page.
+3. Choose the account or organization where you want to fork the repository.
+4. Git will create a new forked repository under your account or organization.
+
+Once you have forked a repository, you can clone it to your local machine and make changes as needed. You can freely push your changes to your forked repository without affecting the original repository.
+
+Forking is particularly useful in collaborative workflows, where you want to contribute to an existing project without directly modifying the original repository. It allows you to propose changes to the original repository by creating a pull request.
+
+To keep your forked repository in sync with the original repository, you can add the original repository as a remote and fetch the latest changes. This way, you can easily incorporate the latest updates into your forked repository.
+
+Remember to contribute back to the original repository by creating a pull request if you wish to propose your changes for inclusion.
+
+### Conclusion
+
+Forking is a powerful feature in Git that allows you to create a personal copy of a repository, make modifications, and propose changes to the original repository. It facilitates collaborative workflows and enables seamless contribution to open source projects.
+
+By forking a repository, you can work on your own version without affecting the original repository. This ensures a clean separation between your changes and the original project, allowing for easier collaboration and contribution.
+
+Remember to consult the Git hosting platform's documentation for more specific instructions on how to fork a repository, as the steps may vary slightly depending on the platform you're using.
+
+
 ## Documentation
 ### What is Documentation?
 
