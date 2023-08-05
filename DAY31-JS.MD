@@ -339,3 +339,262 @@ The addition of these explanations completes the overview of the `push`, `pop`, 
 
 > These are just a few examples of array methods; there are many more available for sorting, filtering, mapping, and more. Arrays provide a powerful way to work with collections of data in JavaScript.
 ---
+### Operators
+In JavaScript, operators are symbols or keywords that perform various operations on values or variables. They allow you to manipulate data, perform mathematical calculations, make comparisons, and control program flow. Here are some of the most commonly used operators in JavaScript:
+
+- Arithmetic Operators
+  
+  Arithmetic operators perform mathematical calculations:
+```javascript
+let a = 5;
+let b = 2;
+
+a + b; // Addition: 7
+a - b; // Subtraction: 3
+a * b; // Multiplication: 10
+a / b; // Division: 2.5
+a % b; // Modulus (remainder of division): 1
+a ** b; // Exponentiation: 25
+```
+- Relational Operators
+
+  Relational operators compare two values and return a boolean result:
+```javascript
+let x = 5;
+let y = 10;
+
+x == y; // Equal to: false
+x != y; // Not equal to: true
+x === "5"; // Strict equal to: false (value and type must be the same)
+x !== "5"; // Strict not equal to: true (value or type is different)
+x > y; // Greater than: false
+x < y; // Less than: true
+x >= 5; // Greater than or equal to: true
+y <= 10; // Less than or equal to: true
+```
+- Logical Operators
+
+  Logical operators perform logical operations and return a boolean value:
+```javascript
+let p = true;
+let q = false;
+
+p && q; // Logical AND: false
+p || q; // Logical OR: true
+!p; // Logical NOT: false
+!q; // Logical NOT: true
+```
+- Assignment Operators
+
+Assignment operators assign values to variables:
+```javascript
+let num = 5;
+
+num += 2; // Addition assignment: num is now 7
+num -= 3; // Subtraction assignment: num is now 4
+num *= 2; // Multiplication assignment: num is now 8
+num /= 4; // Division assignment: num is now 2
+num %= 2; // Modulus assignment: num is now 0
+```
+- Increment and Decrement Operators
+  Increment and decrement operators change the value of a variable by 1:
+```javascript
+let counter = 0;
+
+counter++; // Increment: counter is now 1
+counter--; // Decrement: counter is now 0
+```
+- Bitwise Operators
+```javascript
+let a = 5; // Binary representation: 00000000000000000000000000000101
+let b = 3; // Binary representation: 00000000000000000000000000000011
+
+a & b; // Bitwise AND: 00000000000000000000000000000001 (1 in decimal)
+a | b; // Bitwise OR: 00000000000000000000000000000111 (7 in decimal)
+a ^ b; // Bitwise XOR: 00000000000000000000000000000110 (6 in decimal)
+~a; // Bitwise NOT: 11111111111111111111111111111010 (-6 in decimal)
+a << 1; // Left shift by 1: 00000000000000000000000000001010 (10 in decimal)
+a >> 1; // Right shift by 1: 00000000000000000000000000000010 (2 in decimal)
+a >>> 1; // Zero-fill right shift by 1: 00000000000000000000000000000010 (2 in decimal)
+```
+These operators are essential for writing powerful and expressive JavaScript code. They provide the foundation for performing various operations and implementing complex logic in your programs.
+
+---
+### Conditional Statement
+A conditional statement, also known as a conditional expression or conditional construct, is a programming concept that allows you to make decisions in your code based on certain conditions. It enables you to execute different blocks of code or take specific actions depending on whether a condition evaluates to true or false.
+
+In JavaScript, there are several ways to implement conditional statements:
+
+- `if` Statement:
+  
+  The `if` statement is the simplest conditional statement. It executes a block of code only if the specified condition is true.
+  
+```javascript
+let num = 10;
+
+if (num > 0) {
+console.log("The number is positive.");
+```
+
+- `if-else` Statement:
+  
+  The `if-else` statement allows you to execute one block of code if the condition is true, and another block of code if the condition is false.
+
+```javascript
+let num = -5;
+
+if (num > 0) {
+  console.log("The number is positive.");
+} else {
+  console.log("The number is non-positive.");
+}
+```
+
+- `if-else if-else` Statement:
+  
+  The `if-else if-else` statement allows you to test multiple conditions and execute different blocks of code based on which condition is true first.
+
+```javascript
+let num = 0;
+
+if (num > 0) {
+  console.log("The number is positive.");
+} else if (num < 0) {
+  console.log("The number is negative.");
+} else {
+  console.log("The number is zero.");
+}
+```
+
+- `switch` Statement:
+
+   The `switch` statement provides an alternative way to handle multiple conditions based on the value of an expression.
+
+```javascript
+let day = "Monday";
+
+switch (day) {
+  case "Monday":
+    console.log("It's the start of the week.");
+    break;
+  case "Friday":
+    console.log("It's the end of the week.");
+    break;
+  default:
+    console.log("It's a regular day.");
+    break;
+}
+```
+Conditional statements are essential for implementing logic and making your programs responsive to different situations. They allow you to control the flow of execution and ensure that your code behaves as expected in various scenarios.
+
+---
+### Primitive Literals
+
+In JavaScript, primitive literals allow us to represent fixed values of the five primitive data types directly in our code. These literals provide a convenient way to define and work with simple data without the need for explicit constructor functions. Here are the five types of primitive literals in JavaScript:
+
+#### 1. String Literal
+
+String literals are used to represent textual data and are enclosed in either single or double quotes.
+
+Example:
+
+```javascript
+const name = "John";
+const message = 'Hello, world!';
+```
+#### 2. Numeric Literal
+Numeric literal can be written as integers (`int`) or floating point numbers(`float`).
+Numeric literals are used to represent numbers, including integers and floating-point numbers.
+
+Example:
+```javascript
+const age = 30;
+const pi = 3.14159;
+```
+#### 3. Boolean Literal
+Boolean values are represented by keywords such as true/false that have no value associated with them like.
+Boolean literals represent Boolean values, which can be either `true` or `false`.
+
+Example :
+```javascript
+const isLogged = true;
+const hasPermission = false;
+```
+#### 4. Undefined Literal
+The undefined keyword represents an unknown variable state where it doesn't hold any value at all. It
+is often used when we want to declare variables but not assign anything yet. The undefined literal represents the primitive value undefined, indicating the absence of a value.
+
+Example:
+```javascript
+let value; // value is undefined
+```
+#### 5. Null Literal
+Null is the only primitive type that does not contain any value. The null keyword represents this empty
+state of variables holding nothingness. The null literal represents the primitive value `null`, often used to indicate the intentional absence of a value.
+
+Example:
+```javascript
+const user = null; //No user data available
+```
+>Understanding primitive literals is essential for working with JavaScript's basic data types and creating simple data structures in your code. These literals serve as the foundation for more complex data structures and objects in the language.
+---
+### Loops
+Loops in JavaScript allow you to execute a block of code repeatedly until a certain condition is met. They are essential for performing repetitive tasks efficiently. JavaScript supports several types of loops:
+
+1. `for` Loop
+
+The `for` loop is one of the most commonly used loops in JavaScript. It allows you to execute a block of code for a specific number of iterations.
+```javascript
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+```
+2. `while` Loop
+
+The `while` loop executes a block of code as long as a specified condition is true.
+```javascript
+let count = 0;
+
+while (count < 5) {
+  console.log(count);
+  count++;
+}
+```
+3. `do-while` Loop
+
+The `do-while` loop is similar to the `while` loop, but it executes the block of code at least once before checking the condition.
+
+```javascript
+let number = 1;
+
+do {
+  console.log(number);
+  number++;
+} while (number <= 5);
+```
+
+4. `for-in` Loop
+
+The `for-in` loop is used to iterate over the properties of an object.
+```javascript
+const person = {
+  name: 'John',
+  age: 30,
+  occupation: 'Engineer',
+};
+
+for (const key in person) {
+  console.log(key + ': ' + person[key]);
+}
+```
+5. `for-of` Loop
+
+The `for-of` loop is introduced in ES6 and is used to iterate over iterable objects like arrays and strings.
+```javascript
+const colors = ['red', 'green', 'blue'];
+
+for (const color of colors) {
+  console.log(color);
+}
+```
+>Loops are powerful tools for automating repetitive tasks and processing large amounts of data. However, be cautious about using infinite loops that might cause your program to hang or crash. Always ensure that your loop has a proper exit condition to prevent unintended behavior.
