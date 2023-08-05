@@ -759,3 +759,4 @@ console.log(sequence.next().value); // Output: 1
 console.log(sequence.next().value); // Output: 2
 console.log(sequence.next().value); // Output: 3
 ```
+
