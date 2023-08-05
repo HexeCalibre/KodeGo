@@ -28,10 +28,10 @@ Before diving into JavaScript, it is beneficial to have a basic understanding of
 
 HTML `<script>` Attribute
 
-| Attribute | Description |
-| --------- | ----------- |
-| `defer` |   The script will be executed after the HTML document has been fully parsed. Multiple scripts with the defer attribute will maintain their execution order.          |
-| `async` |  The script will be fetched asynchronously while continuing to parse the HTML document. The script will be executed immediately after it is downloaded, regardless of the order.           |
+| Attribute | Description                                                                                                                                                                     |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `defer`   | The script will be executed after the HTML document has been fully parsed. Multiple scripts with the defer attribute will maintain their execution order.                       |
+| `async`   | The script will be fetched asynchronously while continuing to parse the HTML document. The script will be executed immediately after it is downloaded, regardless of the order. |
 
 ![defer illustration]()
 
@@ -42,11 +42,11 @@ Declaration
 ---
 ### Variables
 
-| Attribute | Description |
-| --------- | ----------- |
-| `var`   | The old way of declaring variables. It has a function scope and can lead to some unexpected behavior.            |
-| `let`   | Introduced in ES6, it has block scope and is preferred over var in modern JavaScript.            |
-| `const` | Also introduced in ES6, it creates a constant whose value cannot be changed after initialization.            |
+| Attribute | Description                                                                                           |
+| --------- | ----------------------------------------------------------------------------------------------------- |
+| `var`     | The old way of declaring variables. It has a function scope and can lead to some unexpected behavior. |
+| `let`     | Introduced in ES6, it has block scope and is preferred over var in modern JavaScript.                 |
+| `const`   | Also introduced in ES6, it creates a constant whose value cannot be changed after initialization.     |
 
 When to use `var`, `let`, or `const`?
 
@@ -62,26 +62,26 @@ Note: Variables are containers for storing values.
 ### Data Types
 
 
-| Data Type | Description |
-| --------- | ----------- |
-| String    | Represents textual data, e.g., "Hello, World!".            |
-| Integer   | Represents whole numbers, e.g., 42.            |
-| Float     | Represents decimal numbers, e.g., 3.14.            |
-| Boolean   | Represents true or false.            |
-| Undefined | Represents a variable that has been declared but not assigned a value.            |
-| Null      | Represents the intentional absence of any object value.            |
+| Data Type | Description                                                            |
+| --------- | ---------------------------------------------------------------------- |
+| String    | Represents textual data, e.g., "Hello, World!".                        |
+| Integer   | Represents whole numbers, e.g., 42.                                    |
+| Float     | Represents decimal numbers, e.g., 3.14.                                |
+| Boolean   | Represents true or false.                                              |
+| Undefined | Represents a variable that has been declared but not assigned a value. |
+| Null      | Represents the intentional absence of any object value.                |
 
 ---
 ### JavaScript Code
 
-| Method            | Description | Syntax                              |
-| ----------------- | ----------- | ------------------------------------ |
-| `alert`         |  Displays an alert dialog box with a message.           | `alert("Hello World!");`           |
-| `console.log`   | Logs a message to the browser's console for debugging purposes.            | `console.log("Hello World!");`     |
-| `console.warn`  | Logs a warning message to the console.            | `console.warn("warning message");` |
-| `console.debug` |  Logs a debug message to the console.           | `console.debug("debug message");`  |
-| `console.dir`   |  Displays an interactive list of the properties of a specified JavaScript object in the console           | `console.dir();`                   |
-| `console.error` |  Logs an error message to the console.           | `console.error("error message");`  |
+| Method          | Description                                                                                    | Syntax                             |
+| --------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------- |
+| `alert`         | Displays an alert dialog box with a message.                                                   | `alert("Hello World!");`           |
+| `console.log`   | Logs a message to the browser's console for debugging purposes.                                | `console.log("Hello World!");`     |
+| `console.warn`  | Logs a warning message to the console.                                                         | `console.warn("warning message");` |
+| `console.debug` | Logs a debug message to the console.                                                           | `console.debug("debug message");`  |
+| `console.dir`   | Displays an interactive list of the properties of a specified JavaScript object in the console | `console.dir();`                   |
+| `console.error` | Logs an error message to the console.                                                          | `console.error("error message");`  |
 
 ---
 
@@ -169,18 +169,18 @@ String interpolation is generally preferred over old-style concatenation because
 ---
 ### String method
 
-| Method            | Description | 
-| ----------------- | ----------- | 
-| `length`          | Returns the length (number of characters) of a string. | 
-| `charAt(index)`        |Returns the character at the specified index in the string.|
-| `indexOf(searchValue[, fromIndex])`|Returns the index of the first occurrence of searchValue in the string, starting from the optional fromIndex. If not found, it returns -1.| 
-| `lastIndexOf(searchValue[, fromIndex])`   |Returns the index of the last occurrence of searchValue in the string, starting from the optional fromIndex. If not found, it returns -1.| 
-| `slice(start[, end])`         |Extracts a portion of the string starting from start index to end index (exclusive). If end is omitted, it extracts until the end of the string. Negative indices can also be used to count from the end of the string.|
-| `concat(str1, str2, ..., strN)`        |Concatenates one or more strings with the original string and returns the resulting string.|
-| `replace(searchValue, replaceValue)`       |Replaces occurrences of searchValue with replaceValue in the string. Only the first occurrence is replaced unless using a regular expression with the g flag.|
-| `replaceAll()`       |Replaces all occurrences of searchValue with replaceValue in the string. This method was introduced in ECMAScript 2021 (ES12).|
-| `toLowerCase)`    |Converts all characters in the string to lowercase.|
-| `toUpperCase)`    |Converts all characters in the string to uppercase.|
+| Method                                  | Description                                                                                                                                                                                                             |
+| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `length`                                | Returns the length (number of characters) of a string.                                                                                                                                                                  |
+| `charAt(index)`                         | Returns the character at the specified index in the string.                                                                                                                                                             |
+| `indexOf(searchValue[, fromIndex])`     | Returns the index of the first occurrence of searchValue in the string, starting from the optional fromIndex. If not found, it returns -1.                                                                              |
+| `lastIndexOf(searchValue[, fromIndex])` | Returns the index of the last occurrence of searchValue in the string, starting from the optional fromIndex. If not found, it returns -1.                                                                               |
+| `slice(start[, end])`                   | Extracts a portion of the string starting from start index to end index (exclusive). If end is omitted, it extracts until the end of the string. Negative indices can also be used to count from the end of the string. |
+| `concat(str1, str2, ..., strN)`         | Concatenates one or more strings with the original string and returns the resulting string.                                                                                                                             |
+| `replace(searchValue, replaceValue)`    | Replaces occurrences of searchValue with replaceValue in the string. Only the first occurrence is replaced unless using a regular expression with the g flag.                                                           |
+| `replaceAll()`                          | Replaces all occurrences of searchValue with replaceValue in the string. This method was introduced in ECMAScript 2021 (ES12).                                                                                          |
+| `toLowerCase)`                          | Converts all characters in the string to lowercase.                                                                                                                                                                     |
+| `toUpperCase)`                          | Converts all characters in the string to uppercase.                                                                                                                                                                     |
 
 ---
 
@@ -701,3 +701,61 @@ console.log(result); // Output: 15
 In this example, we defined a function called `addNumbers` that takes two parameters (`a` and `b`) and returns their sum. When we call the function with `addNumbers(5, 10)`, it returns the result `15`, which is then stored in the variable `result` and printed to the console.
 
 Functions are essential building blocks in programming, as they help modularize code and promote code reusability. They are widely used to encapsulate logic and provide a clear interface for interacting with various parts of the codebase.
+
+#### Types of Function
+
+1. **Named Functions**: These are traditional functions that have a specific name. They can be defined using the `function` keyword in JavaScript or similar constructs in other programming languages.
+```javascript
+function addNumbers(a, b) {
+  return a + b;
+}
+```
+
+2. **Anonymous Functions**: These functions do not have a specific name and are often defined using function expressions. They are usually assigned to variables and can be used as callbacks or immediately invoked.
+   
+```javascript
+const myFunction = function (name) {
+  console.log(`Hello, ${name}!`);
+};
+```
+3. **Arrow Functions**: Arrow functions are a concise syntax for writing functions in JavaScript. They have a shorter syntax and do not bind their own `this` value.
+
+```javascript
+const multiply = (a, b) => a * b;
+```
+4. **Higher-Order Functions**: These are functions that take one or more functions as arguments or return a function as their result.
+
+```javascript
+function executeOperation(operation, a, b) {
+  return operation(a, b);
+}
+
+const result = executeOperation((x, y) => x + y, 5, 10); // Result will be 15
+```
+
+5. **Recursive Functions**: These functions call themselves within their own definition. They are often used to solve problems that can be broken down into smaller subproblems.
+
+```javascript
+function factorial(n) {
+  if (n === 0) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+}
+```
+
+6. **Generator Functions**: Generator functions are special functions that can pause their execution and resume it later. They use the yield keyword to `yield` values one at a time.
+  
+```javascript
+function* generateSequence() {
+  yield 1;
+  yield 2;
+  yield 3;
+}
+
+const sequence = generateSequence();
+console.log(sequence.next().value); // Output: 1
+console.log(sequence.next().value); // Output: 2
+console.log(sequence.next().value); // Output: 3
+```
