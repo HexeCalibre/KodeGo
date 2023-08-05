@@ -702,6 +702,29 @@ In this example, we defined a function called `addNumbers` that takes two parame
 
 Functions are essential building blocks in programming, as they help modularize code and promote code reusability. They are widely used to encapsulate logic and provide a clear interface for interacting with various parts of the codebase.
 
+#### Function Assignment
+
+In programming, function assignment refers to the technique of assigning functions to variables. In languages that support first-class functions, like JavaScript, Python, and many others, functions are treated as first-class citizens, meaning they can be treated just like any other data type. This allows us to store functions in variables, pass them as arguments to other functions, and return them from functions.
+
+Here's an example in JavaScript:
+
+```javascript
+// Define a function
+function add(a, b) {
+  return a + b;
+}
+
+// Save the function in a variable
+const myFunction = add;
+
+// Call the function using the variable
+const result = myFunction(3, 5); // Result will be 8
+```
+>In this example, the add function is assigned to the variable myFunction. As a result, we can call the add function using the myFunction variable, passing 3 and 5 as arguments, and store the result in the result variable.
+>
+>Function assignment is a powerful technique that enables various programming patterns, including functional programming paradigms and higher-order functions. It provides flexibility and reusability in code, allowing developers to design more elegant and efficient solutions to complex problems.
+
+
 #### Types of Function
 
 1. **Named Functions**: These are traditional functions that have a specific name. They can be defined using the `function` keyword in JavaScript or similar constructs in other programming languages.
@@ -759,4 +782,46 @@ console.log(sequence.next().value); // Output: 1
 console.log(sequence.next().value); // Output: 2
 console.log(sequence.next().value); // Output: 3
 ```
+---
+### Parameter Passing Mechanism
+
+In computer programming, the parameter passing mechanism refers to how function arguments are passed to functions during function calls. Different programming languages employ specific rules for this mechanism, which affects how data is handled within functions and how modifications made to function parameters can impact the original values outside the function scope.
+
+In JavaScript, the parameter passing mechanism can be categorized into two main scenarios:
+
+1. **Pass by Value (for Primitive Types):**
+   When you pass a primitive data type, such as a number, string, or boolean, as an argument to a function, JavaScript uses a "pass by value" mechanism. This means that a copy of the actual value is passed to the function's parameter. Any changes made to the function's parameter inside the function do not affect the original value outside the function.
+
+   ```javascript
+   function modifyValue(val) {
+     val = val + 10; // Changes to the parameter val do not affect the original value outside the function
+   }
+
+   let num = 5;
+   modifyValue(num);
+   console.log(num); // Output: 5 (the original value remains unchanged)
+   ```
+
+2. **Pass by Reference (Pass by Sharing) for Objects:**
+   When you pass an object (including arrays and functions) as an argument to a function, JavaScript uses a "pass by reference" mechanism, or more accurately, "pass by sharing." This means a reference to the original object is passed to the function, not a copy of the object itself. As a result, modifications to the object's properties inside the function affect the original object outside the function.
+   ```javascript
+   function modifyObject(obj) {
+   obj.property = "modified"; // Changes to the object property affect the original object outside the function
+   }
+
+   let myObj = { property: "original" };
+   modifyObject(myObj);
+   console.log(myObj.property); // Output: "modified" (the original object is modified)
+   ```
+   However, reassigning the object parameter to a new object within the function does not affect the original object outside the function:
+   ```javascript
+   function reassignObject(obj) {
+   obj = { newProperty: "new value" }; // Reassigning the parameter does not affect the original object outside the function
+   }
+
+   let myObj = { property: "original" };
+   reassignObject(myObj);
+   console.log(myObj); // Output: { property: "original" } (the original object remains unchanged)
+   ```
+   Understanding the parameter passing mechanism is fundamental for working effectively with functions in JavaScript, as it plays a significant role in how data is handled and modified within functions and throughout the program.
 
