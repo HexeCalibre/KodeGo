@@ -337,6 +337,21 @@ In this example, the `slice(1, 4)` method extracts elements from index `1` (incl
 
 The addition of these explanations completes the overview of the `push`, `pop`, and `slice` array methods. These methods are widely used for adding, removing, and extracting elements from arrays in JavaScript.
 
+- `Array.isArray()`
+  
+`Array.isArray()` is a built-in function in JavaScript used to check whether a given value is an array or not. It returns `true` if the value is an array and `false` if it is not.
+
+Example Usage:
+```javascript
+const myArray = [1, 2, 3];
+const myObject = { key: "value" };
+const myString = "Hello, world!";
+
+console.log(Array.isArray(myArray)); // Output: true
+console.log(Array.isArray(myObject)); // Output: false
+console.log(Array.isArray(myString)); // Output: false
+```
+
 > These are just a few examples of array methods; there are many more available for sorting, filtering, mapping, and more. Arrays provide a powerful way to work with collections of data in JavaScript.
 ---
 ### Operators
@@ -386,7 +401,7 @@ p || q; // Logical OR: true
 ```
 - Assignment Operators
 
-Assignment operators assign values to variables:
+  Assignment operators assign values to variables:
 ```javascript
 let num = 5;
 
@@ -397,12 +412,27 @@ num /= 4; // Division assignment: num is now 2
 num %= 2; // Modulus assignment: num is now 0
 ```
 - Increment and Decrement Operators
+  
   Increment and decrement operators change the value of a variable by 1:
 ```javascript
 let counter = 0;
 
 counter++; // Increment: counter is now 1
 counter--; // Decrement: counter is now 0
+```
+- Unary Operators
+  
+  Unary operators take a single operand and perform an operation on it:
+```javascript
+let value = 10;
+
+-value; // Negation: -10
++value; // Unary plus: 10 (Note: Does not change the value)
+!value; // Logical NOT: false (Note: Converts the value to a boolean and negates it)
+++value; // Prefix increment: 11 (Note: Changes the value and returns the updated value)
+value++; // Postfix increment: 11 (Note: Returns the original value and then changes it)
+--value; // Prefix decrement: 9 (Note: Changes the value and returns the updated value)
+value--; // Postfix decrement: 9 (Note: Returns the original value and then changes it)
 ```
 - Bitwise Operators
 ```javascript
