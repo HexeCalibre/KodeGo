@@ -489,8 +489,10 @@ In JavaScript, identifiers are used to name variables, functions, classes, and o
 - `if` (Reserved keyword)
 - `first-name` (Contains a hyphen - hyphens are not allowed in identifiers)
 
-It is essential to choose meaningful and descriptive names for identifiers to improve code readability and maintainability. Good naming practices contribute to writing clean and maintainable JavaScript code.
+>It is essential to choose meaningful and descriptive names for identifiers to improve code readability and maintainability. Good naming practices contribute to writing clean and maintainable JavaScript code.
+
 ---
+
 ## JavaScript Best Practices
 
 Best practices in JavaScript are guidelines and coding conventions that help improve code quality, maintainability, and performance. Following these practices ensures that your JavaScript code is more readable, less error-prone, and easier to maintain. Here are some of the most important JavaScript best practices:
