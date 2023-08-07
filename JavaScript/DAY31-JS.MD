@@ -625,131 +625,164 @@ console.log(fruits); // Output: ['apple', 'grape', 'orange']
 Arrays come with various built-in methods that allow you to manipulate their contents:
 
 - `join(separator)`
+
 The `join()` method converts all the elements of an array into a string and concatenates them using the specified `separator`. It returns the resulting string. The `separator` is optional, and if not provided, the elements are concatenated with a comma as the default separator.
 
-```javascript
-const fruits = ['apple', 'banana', 'orange'];
+  Example
+  ```javascript
+  const fruits = ['apple', 'banana', 'orange'];
 
-const joinedString = fruits.join(', ');
-console.log(joinedString); // Output: "apple, banana, orange"
-```
+   const joinedString = fruits.join(', ');
+   console.log(joinedString); // Output: "apple, banana, orange"
+  ```
 - `splice(start, deleteCount, item1, item2, ...)`
-  
+
 The `splice()` method allows you to modify an array by adding or removing elements. It takes three parameters:
 
-- `start`: The index at which to start changing the array.
-- `deleteCount`: The number of elements to remove starting from the start index. If set to 0, no elements are removed.
-- `item1, item2, ...`: Elements to add to the array starting from the start index.
-```javascript
-const numbers = [1, 2, 3, 4, 5];
+   - `start`: The index at which to start changing the array.
 
-// Removing elements from the array (deleteCount > 0)
-numbers.splice(2, 2); // Removes 3 and 4
-console.log(numbers); // Output: [1, 2, 5]
+   - `deleteCount`: The number of elements to remove starting from the start index. If set to 0, no elements are removed.
 
-// Adding elements to the array (deleteCount = 0)
-numbers.splice(2, 0, 3, 4); // Inserts 3 and 4 at index 2
-console.log(numbers); // Output: [1, 2, 3, 4, 5]
-```
+   - `item1, item2, ...`: Elements to add to the array starting from the start index.
+
+      Example
+
+      ```javascript
+      const numbers = [1, 2, 3, 4, 5];
+
+      // Removing elements from the array (deleteCount > 0)
+      numbers.splice(2, 2); // Removes 3 and 4
+      console.log(numbers); // Output: [1, 2, 5]
+
+      // Adding elements to the array (deleteCount = 0)
+      numbers.splice(2, 0, 3, 4); // Inserts 3 and 4 at index 2
+      console.log(numbers); // Output: [1, 2, 3, 4, 5]
+      ```
+
 - `split(separator[, limit])`
-  
-The `split()` method splits a string into an array of substrings based on the specified `separator`. The resulting array elements will be the parts of the original string separated by the `separator`. The `limit` parameter is optional and represents the maximum number of splits to be performed.
-```javascript
-const sentence = 'Hello, how are you?';
 
-const words = sentence.split(' '); // Split by space
-console.log(words); // Output: ['Hello,', 'how', 'are', 'you?']
+  The `split()` method splits a string into an array of substrings based on the specified `separator`. The resulting array elements will be the parts of the original string separated by the `separator`. The `limit` parameter is optional and represents the maximum number of splits to be performed.
 
-const letters = sentence.split(''); // Split by each character
-console.log(letters); // Output: ['H', 'e', 'l', 'l', 'o', ',', ' ', 'h', 'o', 'w', ' ', 'a', 'r', 'e', ' ', 'y', 'o', 'u', '?']
-```
+   Example
+
+  ```javascript
+      const sentence = 'Hello, how are you?';
+
+      const words = sentence.split(' '); // Split by space
+      console.log(words); // Output: ['Hello,', 'how', 'are', 'you?']
+
+      const letters = sentence.split(''); // Split by each character
+      console.log(letters); // Output: ['H', 'e', 'l', 'l', 'o', ',', ' ', 'h', 'o', 'w', ' ', 'a', 'r', 'e', ' ', 'y', 'o', 'u', '?']
+  ```
 - `reverse()`
-  
-The `reverse()` method reverses the order of elements in an array, modifying the original array.
-```javascript
-const numbers = [1, 2, 3, 4, 5];
 
-numbers.reverse();
-console.log(numbers); // Output: [5, 4, 3, 2, 1]
-```
+   The `reverse()` method reverses the order of elements in an array, modifying the original array.
+
+    Example
+
+    ```javascript
+       const numbers = [1, 2, 3, 4, 5];
+
+       numbers.reverse();
+       console.log(numbers); // Output: [5, 4, 3, 2, 1]
+    ```
 - `shift()`
-  
-The `shift()` method removes the first element from the array and returns that removed element. The length of the array is decreased by 1.
 
-```javascript
-const fruits = ['apple', 'banana', 'orange'];
+   The `shift()` method removes the first element from the array and returns that removed element. The length of the array is decreased by 1.
 
-const firstFruit = fruits.shift();
-console.log(firstFruit); // Output: "apple"
-console.log(fruits); // Output: ["banana", "orange"]
-```
+   Example
+
+   ```javascript
+  const fruits = ['apple', 'banana', 'orange'];
+
+  const firstFruit = fruits.shift();
+  console.log(firstFruit); // Output: "apple"
+  console.log(fruits); // Output: ["banana", "orange"]
+  ```
+
 - `unshift(item1, item2, ...)`
-  
-The `unshift()` method adds one or more elements to the beginning of the array and returns the new length of the array.
 
-```javascript
-const numbers = [2, 3, 4, 5];
+   The `unshift()` method adds one or more elements to the beginning of the array and returns the new length of the array.
 
-const newLength = numbers.unshift(1);
-console.log(newLength); // Output: 5 (new length of the
-```
+  Example
+    
+  ```javascript
+  const numbers = [2, 3, 4, 5];
+
+  const newLength = numbers.unshift(1);
+  console.log(newLength); // Output: 5 (new length of the array)
+  ```
 
 - `push(element1, element2, ...)`
-  
-The `push()` method adds one or more elements to the end of an array and returns the new length of the array. It modifies the original array by adding the elements provided as arguments to the end of the array.
-```javascript
-const fruits = ['apple', 'banana'];
 
-const newLength = fruits.push('orange', 'grape');
-console.log(newLength); // Output: 4 (new length of the array)
-console.log(fruits); // Output: ['apple', 'banana', 'orange', 'grape']
-```
-In this example, the `push()` method adds two elements, `'orange'` and `'grape'`, to the end of the fruits array, and the array becomes `['apple', 'banana', 'orange', 'grape']`. The `push()` method returns the new length of the array, which in this case is `4`.
+   The `push()` method adds one or more elements to the end of an array and returns the new length of the array. It modifies the original array by adding the elements provided as arguments to the end of the array.
 
+   Example
+
+   ```javascript
+   const fruits = ['apple', 'banana'];
+
+   const newLength = fruits.push('orange', 'grape');
+   console.log(newLength); // Output: 4 (new length of the array)
+   console.log(fruits); // Output: ['apple', 'banana', 'orange', 'grape']
+   ```
 - `pop()`
-  
-The `pop()` method removes the last element from an array and returns that element. It modifies the original array by removing the last element.
-```javascript
-const numbers = [1, 2, 3, 4, 5];
 
-const removedElement = numbers.pop();
-console.log(removedElement); // Output: 5 (removed element)
-console.log(numbers); // Output: [1, 2, 3, 4]
-```
-In this example, the `pop()` method removes the last element `5` from the numbers array, and the array becomes `[1, 2, 3, 4]`. The method also returns the removed element, which in this case is `5`.
+   The `pop()` method removes the last element from an array and returns that element. It modifies the original array by removing the last element.
 
+   Example
+
+   ```javascript
+   const numbers = [1, 2, 3, 4, 5];
+
+   const removedElement = numbers.pop();
+   console.log(removedElement); // Output: 5 (removed element)
+   console.log(numbers); // Output: [1, 2, 3, 4]
+   ```
 - `slice(start, end)`
-  
-The `slice()` method extracts a section of an array and returns a new array containing the extracted elements. It takes two parameters:
 
-- `start`: The index at which to start the extraction. If `start` is negative, it counts from the end of the array.
-- `end`: The index before which to end the extraction. If `end` is negative, it counts from the end of the array. If end is omitted, the slice includes all elements from `start` to the end of the array.
+   The `slice()` method extracts a section of an array and returns a new array containing the extracted elements. It takes two parameters:
+   - `start`: The index at which to start the extraction. If start is negative, it counts from the end of the array.
+   - `end`: The index before which to end the extraction. If end is negative, it counts from the end of the array. If end is omitted, the slice includes all elements from start to the end of the array.
 
-```javascript
-const fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
+   Example
 
-const slicedFruits = fruits.slice(1, 4);
-console.log(slicedFruits); // Output: ['banana', 'orange', 'grape']
-```
-In this example, the `slice(1, 4)` method extracts elements from index `1` (inclusive) to index `4` (exclusive), creating a new array `['banana', 'orange', 'grape']` from the `fruits` array. The original `fruits` array remains unchanged.
+   ```javascript
+   const fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
 
-The addition of these explanations completes the overview of the `push`, `pop`, and `slice` array methods. These methods are widely used for adding, removing, and extracting elements from arrays in JavaScript.
+   const slicedFruits = fruits.slice(1, 4);
+   console.log(slicedFruits); // Output: ['banana', 'orange', 'grape']
+   ```
 
 - `Array.isArray()`
-  
-`Array.isArray()` is a built-in function in JavaScript used to check whether a given value is an array or not. It returns `true` if the value is an array and `false` if it is not.
 
-Example Usage:
-```javascript
-const myArray = [1, 2, 3];
-const myObject = { key: "value" };
-const myString = "Hello, world!";
+   `Array.isArray()` is a built-in function in JavaScript used to check whether a given value is an array or not. It returns `true` if the value is an array and `false` if it is not.
 
-console.log(Array.isArray(myArray)); // Output: true
-console.log(Array.isArray(myObject)); // Output: false
-console.log(Array.isArray(myString)); // Output: false
-```
+   Example
 
+  ```javascript
+  const myArray = [1, 2, 3];
+  const myObject = { key: "value" };
+  const myString = "Hello, world!";
+
+  console.log(Array.isArray(myArray)); // Output: true
+  console.log(Array.isArray(myObject)); // Output: false
+  console.log(Array.isArray(myString)); // Output: false
+  ```
+
+- `map(callbackFn)`
+
+   The `map()` method is used to create a new array by applying a callback function to each element of the original array. The callback function takes three arguments: the current element being processed, the index of that element, and the array itself. It then returns a new value, which will be added to the new array.
+
+   Example
+
+   ```javascript
+   const numbers = [1, 2, 3, 4, 5];
+
+   const squaredNumbers = numbers.map((number) => number * number);
+   console.log(s
+   ```
+   
 > These are just a few examples of array methods; there are many more available for sorting, filtering, mapping, and more. Arrays provide a powerful way to work with collections of data in JavaScript.
 ---
 ### Conditional Statement
