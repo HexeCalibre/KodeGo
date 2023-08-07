@@ -336,6 +336,47 @@ a >>> 1; // Zero-fill right shift by 1: 00000000000000000000000000000010 (2 in d
 ```
 >These operators are essential for writing powerful and expressive JavaScript code. They provide the foundation for performing various operations and implementing complex logic in your programs.
 ---
+## Spread Operator
+The spread operator is a feature in JavaScript that allows an iterable (such as an array, string, or object) to be expanded into individual elements. It is denoted by three consecutive dots (`...`) and can be used in various contexts to manipulate arrays, objects, and function arguments.
+
+1. Array Spread
+   
+   ```javascript
+   const arr1 = [1, 2, 3];
+   const arr2 = [4, 5, ...arr1, 6];
+   console.log(arr2); // Output: [4, 5, 1, 2, 3, 6]
+   ```
+   
+2. Object Spread (Shallow Copy):
+
+   ```javascript
+   const obj1 = { a: 1, b: 2 };
+   const obj2 = { ...obj1, c: 3 };
+   console.log(obj2); // Output: { a: 1, b: 2, c: 3 }
+   ```
+3. Function Arguments (Rest Parameters):
+
+   ```javascript
+   function myFunction(...args) {
+   console.log(args);
+   }
+
+   myFunction(1, 2, 3); // Output: [1, 2, 3]
+   ```
+
+4. Function Arguments (Spread Operator):
+
+   ```javascript
+   function myFunction(a, b, c) {
+   console.log(a + b + c);
+   }
+
+   const values = [1, 2, 3];
+   myFunction(...values); // Output: 6
+   ```
+
+>The spread operator is a powerful tool that simplifies code by allowing for more concise and expressive syntax when working with collections. It provides an efficient way to clone arrays or objects and handle function arguments dynamically.
+
 ## JavaScript Expressions
 
 In JavaScript, an expression is a combination of values, variables, operators, and function calls that results in a single value. Expressions can be as simple as a single value or as complex as a combination of multiple sub-expressions.
@@ -1189,6 +1230,7 @@ In JavaScript, the parameter passing mechanism can be categorized into two main 
    console.log(myObj.property); // Output: "modified" (the original object is modified)
    ```
    However, reassigning the object parameter to a new object within the function does not affect the original object outside the function:
+
    ```javascript
    function reassignObject(obj) {
    obj = { newProperty: "new value" }; // Reassigning the parameter does not affect the original object outside the function
