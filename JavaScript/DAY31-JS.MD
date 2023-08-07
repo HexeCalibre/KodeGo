@@ -160,17 +160,17 @@ In JavaScript, statements are individual instructions or commands that perform a
 ### Data Types
 In JavaScript, values are the fundamental data types that represent different kinds of information. JavaScript has several built-in value types, and each value belongs to a specific type. Here are the main JavaScript value types:
 
-| Value Type   | Example                      | Description                                         |
-|--------------|------------------------------|-----------------------------------------------------|
-| Numbers      | `let age = 30;`              | Numeric values representing integers and floats.   |
-| Strings      | `let name = "John";`         | Sequence of characters enclosed in quotes.         |
-| Booleans     | `let isAdult = true;`        | Represents true or false values.                   |
-| null         | `let noValue = null;`        | Represents the intentional absence of any value.   |
-| undefined    | `let notAssigned;`           | Represents a declared variable without a value.    |
-| Objects      | `let person = { ... };`      | Collection of key-value pairs.                     |
-| Arrays       | `let numbers = [...];`       | Ordered collections of values.                     |
-| Functions    | `function add(a, b) { ... }` | A type of object that performs a specific task.    |
-| Symbols      | `const symbolKey = Symbol();` | Unique and immutable values.                       |
+| Value Type | Example                       | Description                                      |
+| ---------- | ----------------------------- | ------------------------------------------------ |
+| Numbers    | `let age = 30;`               | Numeric values representing integers and floats. |
+| Strings    | `let name = "John";`          | Sequence of characters enclosed in quotes.       |
+| Booleans   | `let isAdult = true;`         | Represents true or false values.                 |
+| null       | `let noValue = null;`         | Represents the intentional absence of any value. |
+| undefined  | `let notAssigned;`            | Represents a declared variable without a value.  |
+| Objects    | `let person = { ... };`       | Collection of key-value pairs.                   |
+| Arrays     | `let numbers = [...];`        | Ordered collections of values.                   |
+| Functions  | `function add(a, b) { ... }`  | A type of object that performs a specific task.  |
+| Symbols    | `const symbolKey = Symbol();` | Unique and immutable values.                     |
 ---
 ### Primitive Literals
 
@@ -402,17 +402,17 @@ person.name // Accessing object property, evaluates to "John"
 
 In JavaScript, keywords are reserved words that have special meanings in the language. They cannot be used as identifiers (variable names, function names, etc.) as they are already predefined for specific purposes in JavaScript.
 
-| Keywords     | Description                                        |
-|--------------|----------------------------------------------------|
-| `abstract`   | Reserved for future use.                          |
-| `arguments`  | Represents the arguments passed to a function.    |
-| `await`      | Used to pause the execution of an async function. |
-| `boolean`    | Represents a boolean value (true or false).       |
-| `break`      | Exits from a loop or a switch statement.          |
-| ...          | ...                                                |
-| `while`      | Starts a while loop that executes a block of code while a condition is true.   |
-| `with`       | Specifies a default object for a block of code.   |
-| `yield`      | Pauses and resumes the execution of a generator function.                  |
+| Keywords    | Description                                                                  |
+| ----------- | ---------------------------------------------------------------------------- |
+| `abstract`  | Reserved for future use.                                                     |
+| `arguments` | Represents the arguments passed to a function.                               |
+| `await`     | Used to pause the execution of an async function.                            |
+| `boolean`   | Represents a boolean value (true or false).                                  |
+| `break`     | Exits from a loop or a switch statement.                                     |
+| ...         | ...                                                                          |
+| `while`     | Starts a while loop that executes a block of code while a condition is true. |
+| `with`      | Specifies a default object for a block of code.                              |
+| `yield`     | Pauses and resumes the execution of a generator function.                    |
 
 ---
 ### Comment
@@ -782,6 +782,35 @@ The `splice()` method allows you to modify an array by adding or removing elemen
    const squaredNumbers = numbers.map((number) => number * number);
    console.log(s
    ```
+
+- `filter(callback(element[, index[, array]])[, thisArg])`
+  
+  The `filter()` method creates a new array with all elements that pass the test implemented by the provided callback function. The callback function is called for each element in the array, and if it returns `true`, the element is included in the new filtered array. If it returns `false`, the element is excluded.
+  
+  - `callback`: The function used to test each element of the array. It takes three arguments:
+
+    Parameters:
+    
+    - `element`: The current element being processed in the array.
+    - `index` (optional): The index of the current element in the array.
+    - `array` (optional): The array that the `filter()` method was called upon.
+
+  - `thisArg` (optional): The value to be used as `this` when executing the callback function.
+
+  Return Value:
+
+  - A new array containing all the elements for which the callback function returns `true`.
+
+       Example:
+
+      ```javascript
+      const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    // Filter out even numbers
+    const evenNumbers = numbers.filter((number) => number % 2 === 0);
+
+    console.log(evenNumbers); // Output: [2, 4, 6, 8, 10]
+    ```
 
 > These are just a few examples of array methods; there are many more available for sorting, filtering, mapping, and more. Arrays provide a powerful way to work with collections of data in JavaScript.
 ---
