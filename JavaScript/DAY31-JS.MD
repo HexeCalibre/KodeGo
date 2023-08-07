@@ -782,7 +782,7 @@ The `splice()` method allows you to modify an array by adding or removing elemen
    const squaredNumbers = numbers.map((number) => number * number);
    console.log(s
    ```
-   
+
 > These are just a few examples of array methods; there are many more available for sorting, filtering, mapping, and more. Arrays provide a powerful way to work with collections of data in JavaScript.
 ---
 ### Conditional Statement
@@ -937,8 +937,7 @@ for (const color of colors) {
    })
    ```
 
-7. `map` 
-8. Looping Through Arrays
+7. Looping Through Arrays
    
    Looping through arrays is a common use case for many programming tasks. Here's an example of how you can do it in JavaScript:
 
