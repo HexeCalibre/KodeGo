@@ -46,6 +46,7 @@ A DOM method is a function provided by the Document Object Model (DOM) API that 
 |                         | `removeAttribute`      | Removes an attribute from a DOM element.                                                                                                                            |
 |                         | `getAttribute`         | Retrieves the value of a specific attribute on a DOM element.                                        |
 |                         | `insertBefore`         | Inserts a node before a specific child node within a parent element.                                                                                                |
+|                         | `.toggle()` (Concept)  | Toggles the state or properties of an element, often using JavaScript and CSS.                       |
 |                         | `append`               | Adds specified content or elements as the last child of a parent element.                                                       |
 |                         | `prepend`              | Adds specified content or elements as the first child of a parent element.                                                      |
 |                         |                        |                                                                                                      |
