@@ -32,15 +32,34 @@ DOM manipulation involves the following key components:
 
 A DOM method is a function provided by the Document Object Model (DOM) API that allows developers to perform specific actions on DOM elements or the document itself. These methods are used to manipulate the structure, content, and behavior of web pages dynamically.
 
-| DOM Method            | Description                                                                                                                                                          |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `getElementById`        | Retrieves an element by its unique ID attribute.                                                                                                                    |
-| `querySelector`         | Returns the first element that matches a given CSS selector.                                                                                                         |
-| `createElement`        | Creates a new HTML element.                                                                                                                                          |
-| `appendChild`           | Appends a child element to a parent element.                                                                                                                        |
-| `removeChild`           | Removes a child element from a parent element.                                                                                                                      |
-| `setAttribute`          | Sets the value of an attribute on a DOM element.                                                                                                                    |
-| `addEventListener`     | Attaches an event handler function to an element, allowing it to respond to specific events like clicks.                                                           |
+| Category                | DOM Method             | Description                                                                                                                                                          |
+|-------------------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| DOM Selection           | `getElementById`       | Retrieves an element by its unique ID attribute.                                                                                                                    |
+|                         | `querySelector`        | Returns the first element that matches a given CSS selector.                                                                                                         |
+|                         |                        |                                                                                                      |
+| DOM Creation            | `createElement`        | Creates a new HTML element.                                                                                                                                          |
+|                         |                        |                                                                                                      |
+| DOM Modification        | `appendChild`          | Appends a child element to a parent element.                                                                                                                        |
+|                         | `removeChild`          | Removes a child element from a parent element.                                                                                                                      |
+|                         | `replaceChild`         | Replaces a child element in a parent element with another element.                                                                                                  |
+|                         | `setAttribute`         | Sets the value of an attribute on a DOM element.                                                                                                                    |
+|                         | `removeAttribute`      | Removes an attribute from a DOM element.                                                                                                                            |
+|                         | `getAttribute`         | Retrieves the value of a specific attribute on a DOM element.                                        |
+|                         | `insertBefore`         | Inserts a node before a specific child node within a parent element.                                                                                                |
+|                         | `append`               | Adds specified content or elements as the last child of a parent element.                                                       |
+|                         | `prepend`              | Adds specified content or elements as the first child of a parent element.                                                      |
+|                         |                        |                                                                                                      |
+| DOM Event Handling      | `addEventListener`     | Attaches an event handler function to an element, allowing it to respond to specific events like clicks.                                                           |
+|                         | `removeEventListener`  | Removes an event handler that has been attached using `addEventListener`.                                                                                            |
+|                         | `dispatchEvent`        | Dispatches an event to an element, triggering any registered event listeners.                                                                                        |
+|                         |                        |                                                                                                      |
+| DOM Navigation          | `parentNode`           | Returns the parent node of an element.                                                                                                                              |
+|                         | `childNodes`           | Returns a collection of all child nodes of an element.                                                                                                              |
+|                         | `firstChild`           | Returns the first child node of an element.                                                                                                                         |
+|                         | `lastChild`            | Returns the last child node of an element.                                                                                                                          |
+|                         | `nextSibling`          | Returns the next sibling node of an element.                                                                                                                        |
+|                         | `previousSibling`      | Returns the previous sibling node of an element.                                                                                                                    |
+
 ---
 
 ## DOM Properties
