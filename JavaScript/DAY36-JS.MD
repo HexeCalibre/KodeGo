@@ -53,7 +53,9 @@ A DOM method is a function provided by the Document Object Model (DOM) API that 
 | DOM Event Handling      | `addEventListener`     | Attaches an event handler function to an element, allowing it to respond to specific events like clicks.                                                           |
 |                         | `removeEventListener`  | Removes an event handler that has been attached using `addEventListener`.                                                                                            |
 |                         | `dispatchEvent`        | Dispatches an event to an element, triggering any registered event listeners.                                                                                        |
-|                         |                        |                                                                                                      |
+| Event Object Methods   | `preventDefault()`     | Prevents the default behavior associated with an event, such as preventing a link from being followed or a form from being submitted. This method is typically used within an event handler function. |
+|                         | `stopPropagation()`    | Stops the propagation of an event through the DOM hierarchy, preventing parent elements from receiving the same event. This method is also used within an event handler function.     |
+
 | DOM Navigation          | `parentNode`           | Returns the parent node of an element.                                                                                                                              |
 |                         | `childNodes`           | Returns a collection of all child nodes of an element.                                                                                                              |
 |                         | `firstChild`           | Returns the first child node of an element.                                                                                                                         |
