@@ -151,6 +151,7 @@ Adjust environment and cofiguration settings:
 - Optimize database queries for performance.
 
 - Utilize caching mechanisms.
+<<<<<<< Updated upstream
 
 ---
 
@@ -188,3 +189,5 @@ Here's an example of how you might use middleware in Laravel:
    
    ```php
    Route::get('/admin/dashboard', 'AdminController@dashboard')->middleware('checkAdmin');
+=======
+>>>>>>> Stashed changes
